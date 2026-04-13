@@ -23,7 +23,7 @@ const Footer = () => {
         if (!data) return <p>Loading...</p>;
     return (
         <footer>
-            <p>&copy; 2026 Matsepe Kgodiso, Built In React.js. Portfolio in Progress.</p>
+            <p>&copy; 2026 Matsepe Kgodiso, <em>Built In React.js. Portfolio in Progress.</em></p>
             <br />
             <FaWhatsapp />
             <a href={`https://wa.me/${data.cellPhoneNumber[0]}`} target="_blank" rel="noopener noreferrer">WhatsApp Me</a>
@@ -40,12 +40,9 @@ const Footer = () => {
             LinkedIn
             </a>
             <br />
-
-
-            
         </footer>
     );
-}
+};
 
 export default Footer;
 
