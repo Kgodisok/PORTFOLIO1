@@ -24,7 +24,7 @@ const Footer = () => {
         <footer>
             <p>&copy; 2026 Matsepe Kgodiso portfolio. All rights reserved.</p>
             <p>Contact: {`${data.emailAddress}`}</p>
-            <p>WhatsApp: {`${data.cellPhoneNumber[0]}` | `${data.cellPhoneNumber[1]}`}</p>
+            <p>WhatsApp: {`${data.cellPhoneNumber[0]} | ${data.cellPhoneNumber[1]}`}</p>
             <p>LinkedIn: https://linkedin.com/in/matsepe-kgodiso</p>
         </footer>
     );
