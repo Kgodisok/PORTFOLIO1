@@ -1,12 +1,13 @@
 {
   "name": "KGODISO",
   "surname": "MATSEPE",
-  "age": 20,
+  "age": 22,
   "emailAddress": "kgodisomatsepe474@gmail.com",
   "cellPhoneNumber": [
     "+27-79-633-8442",
     "+27-76-195-9053"
   ],
+  "linkedIn": "https://linkedin.com/in/matsepe-kgodiso",
   "education": {
     "schoolName": "Tech Performance Center",
     "course": "Software Development/Engineering",
