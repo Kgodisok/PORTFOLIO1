@@ -20,8 +20,9 @@ const Skills = () => {
         })
         .catch((err) => {
             console.error("Could not fetch /information/data.json, using local data:", err);
-            setSkills(initial);
+            setSkills([initial]);
         });
+        
     }, []);
 
     if (!skills || skills.length === 0) return <p>No programming skills available.</p>;
