@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import localData from "../data/data.json";
-import { FaWhatsapp, FaEnvelope, FaPhone, FaLinkedinIn} from "react-icons/fa";
+import { FaWhatsapp, FaEnvelope, FaPhone, FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
     const [data, setData] = useState(localData || null);
@@ -24,7 +24,6 @@ const Footer = () => {
     return (
         <footer>
             <p>&copy; 2026 Matsepe Kgodiso, <em>Built In React.js. Portfolio in Progress.</em></p>
-            <br />
             <FaWhatsapp />
             <a href={`https://wa.me/${data.cellPhoneNumber[0]}`} target="_blank" rel="noopener noreferrer">WhatsApp Me</a>
             <br />
@@ -39,10 +38,10 @@ const Footer = () => {
             <FaLinkedinIn />
             LinkedIn
             </a>
-            <br />
         </footer>
     );
 };
 
 export default Footer;
+
 
