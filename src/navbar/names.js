@@ -17,7 +17,11 @@ const imageStyles = {
     margin: '20px auto'
 };
 
-
+const descriptionStyles = {
+    fontSize: '25px',
+    color: '#333',
+    lineHeight: '1.6'
+};
 
 const NavBar = () => {
     const [data, setData] = useState(localData || null);
@@ -42,7 +46,7 @@ const NavBar = () => {
         <>
         <h1 style={styles}>{`${data.name} ${data.surname}`}</h1>
         <h2>Aspiring Software Developer</h2>
-        <p>I'm a passionate and dedicated software developer with a strong desire to create innovative solutions. With a solid foundation in programming languages such as JavaScript, Python, and Java, I have experience in developing web applications, mobile apps, and software solutions. I am constantly learning and staying up-to-date with the latest technologies to enhance my skills and deliver high-quality work. I am eager to contribute my knowledge and creativity to projects that make a positive impact.</p>
+        <p style={descriptionStyles}>I'm a passionate and dedicated software developer with a strong desire to create innovative solutions. With a solid foundation in programming languages such as JavaScript, Python, and Java, I have experience in developing web applications, mobile apps, and software solutions. I am constantly learning and staying up-to-date with the latest technologies to enhance my skills and deliver high-quality work. I am eager to contribute my knowledge and creativity to projects that make a positive impact.</p>
         <p>Welcome to my portfolio</p>
         <p>I am {`${data.age} `} Years Old</p>
         <img src='/images/profilePhoto.png' alt={`${data.name} ${data.surname}`} style={imageStyles}/>
