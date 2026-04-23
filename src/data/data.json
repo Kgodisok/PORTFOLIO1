@@ -7,7 +7,7 @@
     "+27-79-633-8442",
     "+27-76-195-9053"
   ],
-  
+
   "myDescription": "I am a passionate software developer with a strong foundation in programming languages and web development frameworks. I enjoy creating efficient and scalable solutions to complex problems, and I am always eager to learn new technologies and improve my skills. With a keen eye for detail and a commitment to quality, I strive to deliver high-quality code that meets the needs of users and businesses alike.",
 
   "linkedIn": "https://www.linkedin.com/in/kgodiso-matsepe-86050627b/",
@@ -53,14 +53,15 @@
       "SQL (Structured Query Language)",
       "JSON (JavaScript Object Notation)"
     ],
-    "cloudAndDevOp": ["AWS (S3, EC2, Lambda, DynamoDB)"],
+    "cloudAndDevOps": ["AWS (S3, EC2, Lambda, DynamoDB)"],
     "toolsAndPlatforms": {
       "microSoft": [
         "Word",
         "Excel",
         "PowerPoint"
       ],
-      "devTools": ["VS Code", "Git", "GitHub"]
+      "devTools": ["VS Code", "Git", "Git Bash", "GitHub"],
+      "UI_UX_Design": ["Figma"]
     }
   }
 }
