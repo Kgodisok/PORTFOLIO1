@@ -28,7 +28,7 @@ if (
 
 return (
 	<div>
-		<div style={{backgroundColor: 'grey', color: 'black', padding: '2px', borderRadius: '10px', marginBottom: '2px', marginTop: '2px', boxShadow: '20px 20px 20px rgba(0, 0, 0, 0.1)'}}>
+		<div style={{backgroundColor: 'lightblue', color: 'black', padding: '6px', borderRadius: '10px', marginBottom: '6px', marginTop: '6px', boxShadow: '20px 20px 20px rgba(0, 0, 0, 0.1)'}}>
 		<h2>Programming Skills</h2>
 		<dev>
 		{theSkills.map((s, i) => (
@@ -36,7 +36,7 @@ return (
 		))}
 		</dev>
 	</div>
-	<div style={{backgroundColor: 'grey', color: 'black', padding: '2px', borderRadius: '10px', marginBottom: '2px', marginTop: '2px', boxShadow: '20px 20px 20px rgba(0, 0, 0, 0.1)'}}>
+	<div style={{backgroundColor: 'lightblue', color: 'black', padding: '6px', borderRadius: '10px', marginBottom: '6px', marginTop: '6px', boxShadow: '20px 20px 20px rgba(0, 0, 0, 0.1)'}}>
 		<h3>Web Development Skills</h3>
 		<h3>Front-End</h3>
 		<div>
@@ -67,7 +67,7 @@ return (
 			<li key={i}>{s}</li>
 		))}
 		</div>
-		<div style={{backgroundColor: 'grey', color: 'black', padding: '2px', borderRadius: '10px', marginBottom: '2px', marginTop: '2px', boxShadow: '20px 20px 20px rgba(0, 0, 0, 0.1)'}}>
+		<div style={{backgroundColor: 'lightblue', color: 'black', padding: '6px', borderRadius: '10px', marginBottom: '6px', marginTop: '6px', boxShadow: '20px 20px 20px rgba(0, 0, 0, 0.1)'}}>
 			<h3>Cloud and DevOps</h3>
 		{cloud.map((s, i) => (
 			<li key={i}>{s}</li>
