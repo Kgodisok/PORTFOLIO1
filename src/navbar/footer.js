@@ -9,7 +9,7 @@ const iconStyles ={
     justifyContent: 'center',
     color: 'grey',
     backgroundColor: 'black',
-    fontSize: '25px',
+    fontSize: '18px',
 }
 
 const Footer = () => {
