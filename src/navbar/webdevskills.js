@@ -11,6 +11,7 @@ const cloud = data?.skills?.cloudAndDevOps ?? [];
 const thetoolsAndPlatforms = data?.skills?.toolsAndPlatforms?.microSoft ?? [];
 const developmentTools = data?.skills?.toolsAndPlatforms?.devTools ?? [];
 const UI_and_UX = data?.skills?.toolsAndPlatforms?.UI_UX_Design ?? [];
+const markupAndStyling = data?.skills?.webDevelopment?.markupAndStyling ?? [];
 
 const skillStyles = {
 	backgroundColor: 'lightblue',
@@ -33,7 +34,8 @@ if (
 	thetoolsAndPlatforms.length === 0 &&
 	developmentTools.length === 0 &&
 	UI_and_UX.length === 0 &&
-	theSkills.length === 0	
+	theSkills.length === 0 &&
+	markupAndStyling.length === 0
 )
 	return <p>No web development skills available.</p>;
 
@@ -51,6 +53,10 @@ return (
 		<h3>Web Development Skills</h3>
 		<h3>Front-End</h3>
 		<div>
+		<h4>Markup and Styling</h4>
+		{markupAndStyling.map((s, i) => (
+			<li key={i}>{s}</li>
+		))}
 			<h4>JavaScript Front-End</h4>
 		{javaScriptfrontEndwebDevSkills.map((s, i) => (
 		<li key={i}>{s}</li>
