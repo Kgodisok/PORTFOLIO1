@@ -12,6 +12,17 @@ const thetoolsAndPlatforms = data?.skills?.toolsAndPlatforms?.microSoft ?? [];
 const developmentTools = data?.skills?.toolsAndPlatforms?.devTools ?? [];
 const UI_and_UX = data?.skills?.toolsAndPlatforms?.UI_UX_Design ?? [];
 
+const skillStyles = {
+	backgroundColor: 'lightblue',
+	color: 'black', 
+	padding: '10px', 
+	borderRadius: '1px', 
+	marginBottom: '2px', 
+	marginTop: '6px', 
+	boxShadow: '20px 20px 20px rgba(0, 0, 0, 0.1)',
+	fontSize: '18px',
+}
+
 if (
 	javaScriptfrontEndwebDevSkills.length === 0 &&
 	javaScriptbackEndwebDevSkills.length === 0 &&
@@ -28,7 +39,7 @@ if (
 
 return (
 	<div>
-		<div style={{backgroundColor: 'lightblue', color: 'black', padding: '6px', borderRadius: '10px', marginBottom: '6px', marginTop: '6px', boxShadow: '20px 20px 20px rgba(0, 0, 0, 0.1)'}}>
+		<div style={skillStyles}>
 		<h2>Programming Skills</h2>
 		<dev>
 		{theSkills.map((s, i) => (
@@ -36,7 +47,7 @@ return (
 		))}
 		</dev>
 	</div>
-	<div style={{backgroundColor: 'lightblue', color: 'black', padding: '6px', borderRadius: '10px', marginBottom: '6px', marginTop: '6px', boxShadow: '20px 20px 20px rgba(0, 0, 0, 0.1)'}}>
+	<div style={skillStyles}>
 		<h3>Web Development Skills</h3>
 		<h3>Front-End</h3>
 		<div>
@@ -67,7 +78,7 @@ return (
 			<li key={i}>{s}</li>
 		))}
 		</div>
-		<div style={{backgroundColor: 'lightblue', color: 'black', padding: '6px', borderRadius: '10px', marginBottom: '6px', marginTop: '6px', boxShadow: '20px 20px 20px rgba(0, 0, 0, 0.1)'}}>
+		<div style={skillStyles}>
 			<h3>Cloud and DevOps</h3>
 		{cloud.map((s, i) => (
 			<li key={i}>{s}</li>
