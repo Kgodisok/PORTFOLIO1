@@ -22,7 +22,7 @@ const navaBarStyles = {
 };
 
 const descriptionStyles = {
-    fontSize: '25px',  
+    fontSize: '18px',  
     color: 'grey',
     backgroundColor: 'white',
     border: '2px solid grey',
