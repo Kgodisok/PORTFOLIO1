@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
 import localData from "../data/data.json";
 import { FaWhatsapp, FaEnvelope, FaPhone, FaLinkedinIn } from "react-icons/fa";
-
-
+import { SiGithub } from "react-icons/si";
 const iconStyles ={
     display: 'flex',
     gap: '8px',
@@ -36,21 +35,20 @@ const Footer = () => {
             <footer styles={{backgroundColor: 'black', marginBottom: '0'}}>
                 <p>&copy; 2026 Matsepe Kgodiso, <em>Built In React.js. Portfolio in Progress.</em></p>
                 <div style={iconStyles}>
-                    <FaWhatsapp />
-                    <a href={`https://wa.me/${data.cellPhoneNumber[0]}`} target="_blank" rel="noopener noreferrer">WhatsApp Me</a>
+                    <a href={`https://wa.me/${data.cellPhoneNumber[0]}`} target="_blank" rel="noopener noreferrer">{<FaWhatsapp/>}</a>
                     <br />
-                    <FaEnvelope />
-                    <a href={`mailto:${data.emailAddress}`}>Email Me</a>
+                    
+                    <a href={`mailto:${data.emailAddress}`}>{<FaEnvelope/>}</a>
                     <br />
-                    <FaPhone />
-                    <a href={`tel:${data.cellPhoneNumber[0]}`}>
-                    Call Me</a>
+                    <a href={`tel:${data.cellPhoneNumber[0]}`}>{<FaPhone/>}</a>
                     <br />
                     <a href={data.linkedIn} target="_blank" rel="noopener noreferrer">
-                    <FaLinkedinIn />
-                    LinkedIn
-                    </a>
-                    </div>
+                    {<FaLinkedinIn />}</a>
+                    <br />
+                    <a href={data.github} target="_blank" rel="noopener noreferrer">
+                    {<SiGithub />}</a>
+                    <br />
+                </div>
             </footer>
     );
 };

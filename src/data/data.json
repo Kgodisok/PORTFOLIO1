@@ -11,6 +11,8 @@
   "myDescription": "I am a passionate software developer with a strong foundation in programming languages and web development frameworks. I enjoy creating efficient and scalable solutions to complex problems, and I am always eager to learn new technologies and improve my skills. With a keen eye for detail and a commitment to quality, I strive to deliver high-quality code that meets the needs of users and businesses alike.",
 
   "linkedIn": "https://www.linkedin.com/in/kgodiso-matsepe-86050627b/",
+  "github": "https://github.com/Kgodisok/",
+
 
   "education": {
     "schoolName": "Tech Performance Center",
@@ -30,39 +32,5 @@
     
     "homeLanguage": "Southern Sotho -(Segakopa)",
     "additionalLanguages": ["English"]
-  },
-
-  "skills": {
-    "programmingLanguages": [
-      "Python",
-      "JavaScript",
-      "Java",
-      "C#"
-    ],
-    "webDevelopment": {
-      "markupAndStyling": ["HTML5", "CSS3"],
-      "javaScriptFrameWorks": {
-        "frontEnd": ["React.js"],
-        "backEnd": ["Node.js", "Express.js"]
-      },
-      "pythonFrameWorks": ["FlaskAPI"],
-      "javaFrameWorks": ["SpringBoot"]
-    },
-    "database": [
-      "MySQL",
-      "PostgreSQL",
-      "SQL (Structured Query Language)",
-      "JSON (JavaScript Object Notation)"
-    ],
-    "cloudAndDevOps": ["AWS (S3, EC2, Lambda, DynamoDB)", "Vercel"],
-    "toolsAndPlatforms": {
-      "microSoft": [
-        "Word",
-        "Excel",
-        "PowerPoint"
-      ],
-      "devTools": ["VS Code", "Git", "Git Bash", "GitHub"],
-      "UI_UX_Design": ["Figma"]
     }
-  }
 }
