@@ -31,7 +31,6 @@ const Footer = () => {
     return (
     
             <footer styles={{backgroundColor: 'black', marginBottom: '0'}}>
-                <p>&copy; 2026 Matsepe Kgodiso, <em>Built In React.js. Portfolio in Progress.</em></p>
                 <div style={iconStyles}>
                     <a href={`https://wa.me/${data.cellPhoneNumber[0]}`} target="_blank" rel="noopener noreferrer">{< FaWhatsapp size={30}/>}</a>
                     <br />
@@ -46,6 +45,9 @@ const Footer = () => {
                     <a href={data.github} target="_blank" rel="noopener noreferrer">
                     {<SiGithub size={30} />}</a>
                     <br />
+                </div>
+                <div style={{ display: 'flex', justifyContent: 'center', backgroundColor: 'black' }}>   
+                <p style={{ color: 'white' }}>&copy; 2026 Matsepe Kgodiso, Built In React.js. Portfolio in Progress.</p>
                 </div>
             </footer>
     );
