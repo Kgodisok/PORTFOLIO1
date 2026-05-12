@@ -16,101 +16,95 @@ import {
   SiFigma
 } from "react-icons/si";
 
-const WebDev =() => {
+const WebDev = () => {
+  return (
+    <section className="skills-section">
 
-const skillStyles = {
-	backgroundColor: 'light indigo',
-	color: 'black', 
-	padding: '10px', 
-	borderRadius: '1px', 
-	marginBottom: '2px', 
-	marginTop: '6px', 
-	boxShadow: '20px 20px 20px rgba(0, 0, 0, 0.1)',
-	fontSize: '18px',
-}
+      <div className="skills-grid">
 
-return (
-	<>
-	
-	<div style={skillStyles}>
-		<h2>Programming Skills</h2>
-		<SiPython size={30} color="#306998" />
-		<p>Python</p>
-		<SiJavascript size={30} color="#f0db4f" />
-		<p>JavaScript</p>
-	</div>
+        {/* Programming Languages */}
+        <div className="skill-card">
+          <h3>Programming Languages</h3>
+          <div className="skill-list">
+            <div className="skill-item">
+              <SiPython size={22} color="#306998" /> Python
+            </div>
+            <div className="skill-item">
+              <SiJavascript size={22} color="#f0db4f" /> JavaScript
+            </div>
+          </div>
+        </div>
 
-	<div style={skillStyles}>
-		<h3>Web Development Skills</h3>
-		<h3>Front-End</h3>
-		<div>
-		<h4>Markup and Styling</h4>
-		<SiHtml5 size={30} color="#e34c26" />
-		<p>HTML5</p>
-		<SiCss size={30} color="#264de4" />
-		<p>CSS3</p>
+        {/* Front-End */}
+        <div className="skill-card">
+          <h3>Front‑End</h3>
+          <div className="skill-list">
+            <div className="skill-item">
+              <SiHtml5 size={22} color="#e34c26" /> HTML5
+            </div>
+            <div className="skill-item">
+              <SiCss size={22} color="#264de4" /> CSS3
+            </div>
+            <div className="skill-item">
+              <SiReact size={22} color="#61DBFB" /> React
+            </div>
+          </div>
+        </div>
 
-		<h4>JavaScript Front-End</h4>
-		<SiReact size={30} color="#61DBFB" />
-		<p>React.js</p>
+        {/* Back-End */}
+        <div className="skill-card">
+          <h3>Back‑End</h3>
+          <div className="skill-list">
+            <div className="skill-item">
+              <SiFlask size={22} /> Flask
+            </div>
+            <div className="skill-item">
+              <SiNodedotjs size={22} color="#68A063" /> Node.js
+            </div>
+            <div className="skill-item">
+              <SiExpress size={22} /> Express
+            </div>
+            <div className="skill-item">
+              <SiSpringboot size={22} color="#6DB33F" /> Spring Boot
+            </div>
+          </div>
+        </div>
 
-		<h3>Back-End</h3>
-		<h4>Python Frameworks</h4>
-		<SiFlask size={30} color="#000000" />
-		<p>Flask API</p>
+        {/* Databases */}
+        <div className="skill-card">
+          <h3>Databases</h3>
+          <div className="skill-list">
+            <div className="skill-item">
+              <SiMysql size={22} color="#00758F" /> MySQL
+            </div>
+            <div className="skill-item">
+              <SiPostgresql size={22} color="#336791" /> PostgreSQL
+            </div>
+            <div className="skill-item">
+              <SiJson size={22} /> JSON
+            </div>
+          </div>
+        </div>
 
-		<h4>JavaScript Back-End</h4>
-		<SiNodedotjs size={30} color="#68A063" />
-		<p>Node.js</p>
-		<SiExpress size={30} color="#000000" />
-		<p>Express.js</p>
+        {/* Tools */}
+        <div className="skill-card">
+          <h3>Development Tools</h3>
+          <div className="skill-list">
+            <div className="skill-item">
+              <SiGit size={22} color="#F05032" /> Git
+            </div>
+            <div className="skill-item">
+              <SiGithub size={22} /> GitHub
+            </div>
+            <div className="skill-item">
+              <SiFigma size={22} color="#F24E1E" /> Figma
+            </div>
+          </div>
+        </div>
 
-		<h4>Java Frameworks</h4>
-		<SiSpringboot size={30} color="#6DB33F" />
-		<p>Spring Boot</p>
-		</div>
-    </div>
-
-	<div style={skillStyles}>
-		<h3>Databases</h3>
-		<SiMysql size={60} color="#00758F" />
-		<p>MySQL</p>
-		<SiPostgresql size={30} color="#336791" />
-		<p>PostgreSQL</p>
-		<SiJson size={30} color="#000000" />
-		<p>JSON</p>
-	</div>
-
-	<div style={skillStyles}>
-		<h3>Cloud and DevOps</h3>
-		<p>AWS, S3, EC2, Lambda, DynamoDB</p>
-		<p>Vercel</p>
-	</div>
-
-	<div style={skillStyles}>
-		<h3>Tools and Platforms</h3>
-		<h4>Microsoft</h4>
-		<p>Microsoft 365</p>
-		<p>Microsoft Word</p>
-		<p>Microsoft Excel</p>
-		<p>Microsoft PowerPoint</p>
-	</div>
-    
-	<div style={skillStyles}>
-		<h3>Development Tools</h3>
-		<p>Visual Studio Code</p>
-		<SiGit size={30} color="#F05032" />
-		<p>Git</p>
-		<SiGithub size={30} color="#000000" />
-		<p>GitHub</p>
-		<p>Git Bash</p>
-	</div>
-    <div style={skillStyles}>
-		<h3>UI/UX Design</h3>
-		<SiFigma size={30} color="#F24E1E" />
-		<p>Figma</p>
-	</div>
-	</>
-)
+      </div>
+    </section>
+  );
 };
+
 export default WebDev;

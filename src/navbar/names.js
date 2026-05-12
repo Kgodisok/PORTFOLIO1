@@ -18,7 +18,7 @@ const imageStyles = {
 };
 
 const navaBarStyles = {
-    backgroundColor: 'black'
+    backgroundColor: 'black',
 };
 
 const descriptionStyles = {
