@@ -14,7 +14,7 @@ const UI_and_UX = data?.skills?.toolsAndPlatforms?.UI_UX_Design ?? [];
 const markupAndStyling = data?.skills?.webDevelopment?.markupAndStyling ?? [];
 
 const skillStyles = {
-	backgroundColor: 'lightblue',
+	backgroundColor: 'light indigo',
 	color: 'black', 
 	padding: '10px', 
 	borderRadius: '1px', 

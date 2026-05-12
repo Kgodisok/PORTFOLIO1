@@ -54,7 +54,7 @@
       "SQL (Structured Query Language)",
       "JSON (JavaScript Object Notation)"
     ],
-    "cloudAndDevOps": ["AWS (S3, EC2, Lambda, DynamoDB)"],
+    "cloudAndDevOps": ["AWS (S3, EC2, Lambda, DynamoDB)", "Vercel"],
     "toolsAndPlatforms": {
       "microSoft": [
         "Word",
