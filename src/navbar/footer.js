@@ -6,9 +6,7 @@ const iconStyles ={
     display: 'flex',
     gap: '8px',
     justifyContent: 'center',
-    color: 'grey',
     backgroundColor: 'black',
-    fontSize: '18px',
 }
 
 const Footer = () => {
@@ -35,18 +33,18 @@ const Footer = () => {
             <footer styles={{backgroundColor: 'black', marginBottom: '0'}}>
                 <p>&copy; 2026 Matsepe Kgodiso, <em>Built In React.js. Portfolio in Progress.</em></p>
                 <div style={iconStyles}>
-                    <a href={`https://wa.me/${data.cellPhoneNumber[0]}`} target="_blank" rel="noopener noreferrer">{<FaWhatsapp/>}</a>
+                    <a href={`https://wa.me/${data.cellPhoneNumber[0]}`} target="_blank" rel="noopener noreferrer">{< FaWhatsapp size={30}/>}</a>
                     <br />
                     
-                    <a href={`mailto:${data.emailAddress}`}>{<FaEnvelope/>}</a>
+                    <a href={`mailto:${data.emailAddress}`}>{<FaEnvelope size={30}/>}</a>
                     <br />
-                    <a href={`tel:${data.cellPhoneNumber[0]}`}>{<FaPhone/>}</a>
+                    <a href={`tel:${data.cellPhoneNumber[0]}`}>{<FaPhone size={30}/>}</a>
                     <br />
                     <a href={data.linkedIn} target="_blank" rel="noopener noreferrer">
-                    {<FaLinkedinIn />}</a>
+                    {<FaLinkedinIn size={30}/>}</a>
                     <br />
                     <a href={data.github} target="_blank" rel="noopener noreferrer">
-                    {<SiGithub />}</a>
+                    {<SiGithub size={30} />}</a>
                     <br />
                 </div>
             </footer>
