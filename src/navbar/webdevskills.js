@@ -30,8 +30,9 @@ const skillStyles = {
 }
 
 return (
-	<div>
-		<div style={skillStyles}>
+	<>
+	
+	<div style={skillStyles}>
 		<h2>Programming Skills</h2>
 		<SiPython size={30} color="#306998" />
 		<p>Python</p>
@@ -68,43 +69,48 @@ return (
 		<SiSpringboot size={30} color="#6DB33F" />
 		<p>Spring Boot</p>
 		</div>
+    </div>
 
-		<h4>Databases</h4>
+	<div style={skillStyles}>
+		<h3>Databases</h3>
 		<SiMysql size={60} color="#00758F" />
 		<p>MySQL</p>
 		<SiPostgresql size={30} color="#336791" />
 		<p>PostgreSQL</p>
 		<SiJson size={30} color="#000000" />
 		<p>JSON</p>
-		</div>
+	</div>
 
-		<div style={skillStyles}>
+	<div style={skillStyles}>
 		<h3>Cloud and DevOps</h3>
 		<p>AWS, S3, EC2, Lambda, DynamoDB</p>
 		<p>Vercel</p>
-		
-		<div style={skillStyles}>
+	</div>
+
+	<div style={skillStyles}>
 		<h3>Tools and Platforms</h3>
 		<h4>Microsoft</h4>
 		<p>Microsoft 365</p>
 		<p>Microsoft Word</p>
 		<p>Microsoft Excel</p>
 		<p>Microsoft PowerPoint</p>
-		</div>
-
-		<h4>Development Tools</h4>
+	</div>
+    
+	<div style={skillStyles}>
+		<h3>Development Tools</h3>
 		<p>Visual Studio Code</p>
 		<SiGit size={30} color="#F05032" />
 		<p>Git</p>
 		<SiGithub size={30} color="#000000" />
 		<p>GitHub</p>
 		<p>Git Bash</p>
-
-		<h4>UI/UX Design</h4>
+	</div>
+    <div style={skillStyles}>
+		<h3>UI/UX Design</h3>
 		<SiFigma size={30} color="#F24E1E" />
 		<p>Figma</p>
-		</div>
 	</div>
+	</>
 )
 };
 export default WebDev;
