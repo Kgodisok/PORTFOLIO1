@@ -1,9 +1,6 @@
-import data from "../data/data.json"; // adjust path to the component's locatio
 import {
   SiPython,
   SiJavascript,
-  SiJava,
-  SiCsharp,
   SiHtml5,
   SiCss,
   SiReact,
@@ -14,8 +11,6 @@ import {
   SiMysql,
   SiPostgresql,
   SiJson,
-  SiVercel,
-  SiVisualstudiocode,
   SiGit,
   SiGithub,
   SiFigma
