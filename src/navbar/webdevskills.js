@@ -56,7 +56,7 @@ const WebDev = () => {
           <h3>Back‑End</h3>
           <div className="skill-list">
             <div className="skill-item">
-              <SiFlask size={22} /> Flask
+              <SiFlask size={22} /> Flask API
             </div>
             <div className="skill-item">
               <SiNodedotjs size={22} color="#68A063" /> Node.js

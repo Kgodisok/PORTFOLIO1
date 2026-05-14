@@ -2,17 +2,19 @@ import { useState, useEffect } from "react";
 import localData from "../data/data.json";
 import { FaWhatsapp, FaEnvelope, FaPhone, FaLinkedinIn } from "react-icons/fa";
 import { SiGithub } from "react-icons/si";
+
 const iconStyles ={
     display: 'flex',
     gap: '8px',
     justifyContent: 'center',
     backgroundColor: 'black',
-}
+};
 
 const Footer = () => {
     const [data, setData] = useState(localData || null);
     
         useEffect(() => {
+
             fetch("../data/data.json")
             .then((res) => {
                 if (!res.ok) {
@@ -32,19 +34,19 @@ const Footer = () => {
     
             <footer styles={{backgroundColor: 'black', marginBottom: '0'}}>
                 <div style={iconStyles}>
+
                     <a href={`https://wa.me/${data.cellPhoneNumber[0]}`} target="_blank" rel="noopener noreferrer">{< FaWhatsapp size={30}/>}</a>
                     <br />
                     
-                    <a href={`mailto:${data.emailAddress}`}>{<FaEnvelope size={30}/>}</a>
-                    <br />
-                    <a href={`tel:${data.cellPhoneNumber[0]}`}>{<FaPhone size={30}/>}</a>
-                    <br />
-                    <a href={data.linkedIn} target="_blank" rel="noopener noreferrer">
-                    {<FaLinkedinIn size={30}/>}</a>
-                    <br />
+                    <a href={`mailto:${data.emailAddress}`}>{<FaEnvelope size={30}/>}</a><br />
+
+                    <a href={`tel:${data.cellPhoneNumber[0]}`}>{<FaPhone size={30}/>}</a><br />
+
+                    <a href={data.linkedIn} target="_blank" rel="noopener noreferrer">{<FaLinkedinIn size={30}/>}</a><br />
+
                     <a href={data.github} target="_blank" rel="noopener noreferrer">
-                    {<SiGithub size={30} />}</a>
-                    <br />
+                    {<SiGithub size={30} />}</a><br />
+
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'center', backgroundColor: 'black' }}>   
                 <p style={{ color: 'white' }}>&copy; 2026 Matsepe Kgodiso, Built In React.js. Portfolio in Progress.</p>
