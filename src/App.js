@@ -1,5 +1,5 @@
 import './App.css';
-import NavBar from './navbar/names';
+import NavBar from './navbar/aboutMe';
 import Footer from './navbar/footer';
 import WebDev from './navbar/webdevskills';
 
