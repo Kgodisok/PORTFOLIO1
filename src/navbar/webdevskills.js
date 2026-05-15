@@ -59,7 +59,7 @@ const WebDev = () => {
               <SiFlask size={22} /> Flask API
             </div>
             <div className="skill-item">
-              <SiNodedotjs size={22} color="#68A063" /> Node.js
+              <SiNodedotjs size={22} color="#68A063" /> Node
             </div>
             <div className="skill-item">
               <SiExpress size={22} /> Express
