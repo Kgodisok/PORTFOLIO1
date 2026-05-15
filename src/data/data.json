@@ -25,11 +25,10 @@
     "country": "South Africa",
     "province": "Gauteng",
     "city": "Pretoria",
-    "addressCode": "0002"
+    "code": "0002"
   },
 
   "languages": {
-    
     "homeLanguage": "Southern Sotho -(Segakopa)",
     "additionalLanguages": ["English"]
     }
