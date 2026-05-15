@@ -4,6 +4,7 @@ import localData from "../data/data.json";
 
 const nameStyles = {
     fontSize: '45px',
+    fontFamily: '"Inter", system-ui, -apple-system, sans-serif',
     color: 'white',
     fontWeight: 'bold',
     textAlign: 'center',
