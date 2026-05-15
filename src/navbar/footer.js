@@ -48,8 +48,10 @@ const Footer = () => {
                     {<SiGithub size={30} />}</a><br />
 
                 </div>
+
                 <div style={{ display: 'flex', justifyContent: 'center', backgroundColor: 'black' }}>   
                 <p style={{ color: 'white' }}>&copy; 2026 Matsepe Kgodiso, Built In React.js. Portfolio in Progress.</p>
+                
                 </div>
             </footer>
     );
