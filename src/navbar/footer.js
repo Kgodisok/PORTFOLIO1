@@ -54,9 +54,9 @@ const Footer = () => {
                 </div>
 
                 <div style={{ display: 'flex', justifyContent: 'center', backgroundColor: 'black' }}>
-                    <p style={{ color: 'white' }}>&copy; 2026 Matsepe Kgodiso, Built In React.js. Portfolio in Progress.</p>
+                    <p style={{ color: 'white' }}>&copy; 2026 Matsepe Kgodiso, <i>Built In React.js. Portfolio in Progress.</i></p>
                 </div>
-                
+
             </footer>
     );
 };
