@@ -28,7 +28,7 @@ const EducationDetails = () => {
             <h3>Education</h3>
             <p>School: {data.education.schoolName}</p>
             <p>Course: {data.education.course}</p>
-            <p>Start Date: {data.education.dateStarted} - {data.education.expectedGraduation}</p>
+            <p>Date: {data.education.dateStarted} - {data.education.expectedGraduation}</p>
         </div>
     );
 };
