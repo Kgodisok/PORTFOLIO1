@@ -8,8 +8,6 @@ import
     nameStyles 
 } from "./style";
 
-
-
 const NavBar = () => {
     const [data, setData] = useState(localData || null);
 

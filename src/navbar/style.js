@@ -28,3 +28,10 @@ export const descriptionStyles = {
     borderRadius: '10px',
     boxShadow: '5px 20px 8px rgba(0, 0, 0, 0.1)',
 };
+
+export const iconStyles ={
+    display: 'flex',
+    gap: '8px',
+    justifyContent: 'center',
+    backgroundColor: 'black',
+};

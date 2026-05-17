@@ -2,13 +2,9 @@ import { useState, useEffect } from "react";
 import localData from "../data/data.json";
 import { FaWhatsapp, FaEnvelope, FaPhone, FaLinkedinIn } from "react-icons/fa";
 import { SiGithub } from "react-icons/si";
+import { iconStyles } from "./style";
 
-const iconStyles ={
-    display: 'flex',
-    gap: '8px',
-    justifyContent: 'center',
-    backgroundColor: 'black',
-};
+
 
 const Footer = () => {
     const [data, setData] = useState(localData || null);
