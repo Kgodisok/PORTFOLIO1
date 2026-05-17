@@ -1,6 +1,5 @@
 export const nameStyles = {
     fontSize: '45px',
-    fontFamily: '"Inter", system-ui, -apple-system, sans-serif',
     color: 'white',
     fontWeight: 'bold',
     textAlign: 'center',
@@ -22,7 +21,6 @@ export const navBarStyles = {
 
 export const descriptionStyles = {
     fontSize: '18px',  
-    color: 'black',
     backgroundColor: 'white',
     margin: '20px auto',
     padding: '15px',

@@ -29,7 +29,7 @@ const NavBar = () => {
         <div style={navBarStyles}>
             <h1 style={nameStyles}>{`</> Hello, I am ${data.name} ${data.surname}`}</h1>
             <img src='/images/profilePhoto.png' alt={data.name} style={imageStyles}/>
-            <h2 style={{color: 'white'}}>{data.mytittle}</h2>
+            <h2 style={{color: 'white'}}>{data.myTittle}</h2>
             <p style={descriptionStyles}>{data.myProfileSummary}</p>
         </div>
     )
