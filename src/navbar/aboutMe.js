@@ -1,38 +1,11 @@
 import React, { useEffect, useState } from "react";
 import localData from "../data/data.json";
-
-
-const nameStyles = {
-    fontSize: '45px',
-    fontFamily: '"Inter", system-ui, -apple-system, sans-serif',
-    color: 'white',
-    fontWeight: 'bold',
-    textAlign: 'center',
-    marginTop: '20px'
-};
-const imageStyles = {
-    width: '200px',
-    height: '200px',
-    borderRadius: '50%',
-    display: 'block',
-    margin: '20px auto'
-};
-
-const navaBarStyles = {
-    backgroundColor: 'black',
-};
-
-const descriptionStyles = {
-    fontSize: '18px',  
-    color: 'grey',
-    backgroundColor: 'white',
-    border: '2px solid grey',
-    margin: '20px auto',
-    padding: '15px',
-    maxWidth: '950px',
-    borderRadius: '10px',
-    boxShadow: '5px 20px 8px rgba(0, 0, 0, 0.1)',
-};
+import {
+    nameStyles,
+    descriptionStyles, 
+    imageStyles, 
+    navBarStyles 
+} from './styles'
 
 const NavBar = () => {
     const [data, setData] = useState(localData || null);
@@ -53,13 +26,11 @@ const NavBar = () => {
 
     if (!data) return <p>Loading...</p>;
     return (
-        <div style={navaBarStyles}>
-        <h1 style={nameStyles}>{`${data.name} ${data.surname}`}</h1>
-        <img src='/images/profilePhoto.png' alt={`${data.name} ${data.surname}`} style={imageStyles}/>
-        <h2 style={{color: 'white'}}>Junior Software Developer</h2>
-        <p style={descriptionStyles}>{data.myDescription}</p>
-        <p>Welcome to my portfolio</p>
-        <p>I am {`${data.age} `} Years Old</p>
+        <div style={navBarStyles}>
+            <h1 style={nameStyles}>{`</> Hello, I am ${data.name} ${data.surname}`}</h1>
+            <img src='/images/profilePhoto.png' alt={data.name} style={imageStyles}/>
+            <h2 style={{color: 'white'}}>{data.mytittle}</h2>
+            <p style={descriptionStyles}>{data.myProfileSummary}</p>
         </div>
     )
 };
