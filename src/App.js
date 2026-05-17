@@ -4,8 +4,6 @@ import Footer from './navbar/footer';
 import WebDev from './navbar/webdevskills';
 import EducationDetails from './navbar/education';
 
-
-
 function App() {
   return (
     <div className="App">
