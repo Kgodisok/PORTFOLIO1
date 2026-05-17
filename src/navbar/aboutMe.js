@@ -1,36 +1,14 @@
 import React, { useEffect, useState } from "react";
 import localData from "../data/data.json";
+import 
+{ 
+    imageStyles, 
+    navBarStyles, 
+    descriptionStyles, 
+    nameStyles 
+} from "./style";
 
-const nameStyles = {
-    fontSize: '45px',
-    color: 'white',
-    fontWeight: 'bold',
-    textAlign: 'center',
-    marginTop: '20px'
-};
 
-const imageStyles = {
-    width: '200px',
-    height: '200px',
-    borderRadius: '50%',
-    display: 'block',
-    margin: '20px auto'
-};
-
-const navBarStyles = {
-    backgroundColor: 'black',
-    padding: '2px'
-};
-
-const descriptionStyles = {
-    fontSize: '18px',  
-    backgroundColor: 'white',
-    margin: '20px auto',
-    padding: '15px',
-    maxWidth: '950px',
-    borderRadius: '10px',
-    boxShadow: '5px 20px 8px rgba(0, 0, 0, 0.1)',
-};
 
 const NavBar = () => {
     const [data, setData] = useState(localData || null);
