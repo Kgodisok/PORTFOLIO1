@@ -3,9 +3,8 @@ import localData from '../data/data.json'
 
 const EducationDetails = () => {
     const [data, setData] = useState(localData || null);
-    
-        useEffect(() => {
 
+        useEffect(() => {
             fetch("../data/data.json")
             .then((res) => {
                 if (!res.ok) {
@@ -21,9 +20,7 @@ const EducationDetails = () => {
         }, []);
     
         if (!data) return <p>Loading...</p>;
-        
     return (
-        
         <div className='education-details'>
             <h3>Education</h3>
             <p>School: {data.education.schoolName}</p>

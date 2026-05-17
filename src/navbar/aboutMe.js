@@ -21,7 +21,7 @@ const NavBar = () => {
         })
         .then((json) => setData(json))
         .catch((err) => {
-            console.error("Could not fetch /information/data.json, using local data:", err);
+            console.error("Could not fetch data.json, using local data:", err);
         });
     }, []);
 

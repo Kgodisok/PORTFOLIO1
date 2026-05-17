@@ -35,3 +35,10 @@ export const iconStyles ={
     justifyContent: 'center',
     backgroundColor: 'black',
 };
+
+export const footerStyles = { 
+    display: 'flex', 
+    justifyContent: 'center', 
+    backgroundColor: 'black', 
+    color: 'white' 
+};
