@@ -94,11 +94,14 @@
   border: 2px solid grey;
   background: black;
   color: white;
+  border: 2px solid blue;
+  padding-top: 0;
 }
 .projects {
-  border: 2px solid grey;
   background: black;
   color: white;
+  padding-bottom: 0px;
+  border-top: 2px solid blue;
 }
 .live-btn {
    background: #2563eb;
