@@ -106,7 +106,7 @@
   border-right: 2px solid blue;
 }
 .live-btn {
-   background: #2563eb;
+  background: #2563eb;
   color: white;
   border: none;
   padding: 12px 20px;
@@ -124,4 +124,12 @@
 }
 .footer-contact-icons {
   padding-top: 15px;
+}
+.prf-summary {
+  border: 2px solid blue;
+}
+.sde-tittle {
+  color: white;
+  font-size: 30px;
+  font-weight: px;
 }

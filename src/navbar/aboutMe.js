@@ -5,7 +5,7 @@ import
     imageStyles, 
     navBarStyles, 
     descriptionStyles, 
-    nameStyles 
+    nameStyles,
 } from "./style";
 
 const NavBar = () => {
@@ -30,8 +30,8 @@ const NavBar = () => {
         <div style={navBarStyles}>
             <h1 style={nameStyles}>{`</> Hello, I am ${data.name} ${data.surname}`}</h1>
             <img src='/images/profilePhoto.png' alt={data.name} style={imageStyles}/>
-            <h2 style={{color: 'white'}}>{data.myTittle}</h2>
-            <p style={descriptionStyles}>{data.myProfileSummary}</p>
+            <p className="sde-tittle">{data.myTittle}</p>
+            <p style={descriptionStyles} className="prf-summary">{data.myProfileSummary}</p>
         </div>
     )
 };

@@ -21,12 +21,13 @@ export const navBarStyles = {
 
 export const descriptionStyles = {
     fontSize: '18px',  
-    backgroundColor: 'white',
     margin: '20px auto',
     padding: '15px',
     maxWidth: '950px',
     borderRadius: '10px',
     boxShadow: '5px 20px 8px rgba(0, 0, 0, 0.1)',
+    color: 'white',
+    fontWeight: '5px'
 };
 
 export const iconStyles ={
@@ -42,3 +43,4 @@ export const footerStyles = {
     backgroundColor: 'black', 
     color: 'white',
 };
+
