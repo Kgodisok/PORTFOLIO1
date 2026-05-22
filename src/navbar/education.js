@@ -22,10 +22,10 @@ const EducationDetails = () => {
         if (!data) return <p>Loading...</p>;
     return (
         <div className='education-details'>
-            <h3>Education</h3>
-            <p>School: {data.education.schoolName}</p>
-            <p>Course: {data.education.course}</p>
-            <p>Date: {data.education.dateStarted} - {data.education.expectedGraduation}</p>
+            <h1>Education</h1>
+            <p><strong>School</strong>: {data.education.schoolName}</p>
+            <p><strong>Course:</strong> {data.education.course}</p>
+            <p><strong>Date:</strong> {data.education.dateStarted} - {data.education.expectedGraduation}</p>
         </div>
     );
 };
