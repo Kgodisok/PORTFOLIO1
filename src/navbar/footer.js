@@ -40,7 +40,7 @@ const Footer = () => {
                     <p>{data.address.city}, {data.address.province}, {data.address.country}, {data.address.code}</p>
                 </div>
                 <div style={footerStyles}>
-                    <p style={{ color: 'white' }}>Copyright &copy; 2026 Matsepe Kgodiso | Built With React (Portfolio in Progress.)</p>
+                    <p style={{ color: 'white' }}>Copyright &copy; 2026 Matsepe Kgodiso | Built With React</p>
                 </div>
             </footer>
     );
