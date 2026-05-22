@@ -107,6 +107,7 @@
   padding: 12px 20px;
   border-radius: 8px;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 .skill-item-project {
   display: flex;
@@ -114,4 +115,8 @@
   gap: 10px;
   font-size: 0.95rem;
   justify-content: center;
+  flex-wrap: wrap;
+}
+.footer-contact-icons {
+  padding-top: 15px;
 }

@@ -27,7 +27,7 @@ const Footer = () => {
         if (!data) return <p>Loading...</p>;
     return (
             <footer styles={{backgroundColor: 'black', marginBottom: '0'}}>
-                <div style={iconStyles}>
+                <div style={iconStyles} className="footer-contact-icons">
                     <a href={`https://wa.me/${data.cellPhoneNumber[0]}`} target="_blank" rel="noopener noreferrer">{< FaWhatsapp size={30}/>}</a>
                     <br />
                     <a href={`mailto:${data.emailAddress}`}>{<FaEnvelope size={30}/>}</a><br />

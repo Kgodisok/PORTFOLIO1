@@ -40,5 +40,5 @@ export const footerStyles = {
     display: 'flex', 
     justifyContent: 'center', 
     backgroundColor: 'black', 
-    color: 'white' 
+    color: 'white',
 };
