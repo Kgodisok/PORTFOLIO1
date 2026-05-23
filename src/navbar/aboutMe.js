@@ -30,7 +30,7 @@ const NavBar = () => {
         <div style={navBarStyles}>
             <h1 style={nameStyles}>{`</> Hello, I am ${data.name} ${data.surname}`}</h1>
             <img src='/images/profilePhoto.png' alt={data.name} style={imageStyles}/>
-            <p className="sde-tittle">{data.myTittle}</p>
+            <p className="sde-tittle"><u>{data.myTittle}</u></p>
             <p style={descriptionStyles} className="prf-summary">{data.myProfileSummary}</p>
         </div>
     )
