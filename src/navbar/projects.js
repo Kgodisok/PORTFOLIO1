@@ -4,7 +4,6 @@ import {
     SiNodedotjs, 
     SiExpress
 } from "react-icons/si";
-import { Typewriter } from "react-simple-typewriter";
 
 const Projects = () => {
     return (
