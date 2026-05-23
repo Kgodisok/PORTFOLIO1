@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import localData from "../data/data.json";
+import { Typewriter } from "react-simple-typewriter";
+
 import 
 { 
     imageStyles, 
@@ -28,7 +30,15 @@ const NavBar = () => {
     if (!data) return <p>Loading...</p>;
     return (
         <div style={navBarStyles}>
-            <h1 style={nameStyles}>{`</> Hello, I am ${data.name} ${data.surname}`}</h1>
+            <h1 style={nameStyles}>
+                <Typewriter
+                    words = {[`</> Hello! I am, ${data.name} ${data.surname} `]}
+                    loop={0}
+                    cursor
+                    cursorStyle="|"
+                    typeSpeed={70}
+                />
+            </h1>
             <img src='/images/profilePhoto.png' alt={data.name} style={imageStyles}/>
             <p className="sde-tittle"><u>{data.myTittle}</u></p>
             <p style={descriptionStyles} className="prf-summary">{data.myProfileSummary}</p>
