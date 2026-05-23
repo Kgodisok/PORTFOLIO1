@@ -59,6 +59,8 @@
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   text-align: left;
+  border-top: 2px solid lightblue;
+  border-left: 2px solid lightblue;
 }
 
 .skill-card h3 {
@@ -133,7 +135,9 @@
   padding-top: 15px;
 }
 .prf-summary {
-  border: 2px solid blue;
+  border-top: 2px solid lightskyblue;
+  border-left: 2px solid lightskyblue;
+
 }
 .sde-tittle {
   color: white;
