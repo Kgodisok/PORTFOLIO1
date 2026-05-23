@@ -29,13 +29,13 @@ const Footer = () => {
     return (
             <footer styles={{backgroundColor: 'black', marginBottom: '0'}}>
                 <div style={iconStyles} className="footer-contact-icons">
-                    <a href={`https://wa.me/${data.cellPhoneNumber[0]}`} target="_blank" rel="noopener noreferrer">{< FaWhatsapp size={30}/>}</a>
+                    <a href={`https://wa.me/${data.cellPhoneNumber[0]}`} target="_blank" rel="noopener noreferrer">{< FaWhatsapp size={30}color="green"/>}</a>
                     <br />
-                    <a href={`mailto:${data.emailAddress}`}>{<FaEnvelope size={30}/>}</a><br />
-                    <a href={`tel:${data.cellPhoneNumber[0]}`}>{<FaPhone size={30}/>}</a><br />
-                    <a href={data.linkedIn} target="_blank" rel="noopener noreferrer">{<FaLinkedinIn size={30}/>}</a><br />
+                    <a href={`mailto:${data.emailAddress}`}>{<FaEnvelope size={30} color="blue"/>}</a><br />
+                    <a href={`tel:${data.cellPhoneNumber[0]}`}>{<FaPhone size={30} color="green"/>}</a><br />
+                    <a href={data.linkedIn} target="_blank" rel="noopener noreferrer">{<FaLinkedinIn size={30} color="blue"/>}</a><br />
                     <a href={data.github} target="_blank" rel="noopener noreferrer">
-                    {<SiGithub size={30} />}</a><br />
+                    {<SiGithub size={30} color="white"/>}</a><br />
                 </div>
                 <div style={footerStyles} className="footer-cnt">
                     <FaMapMarkerAlt color="blue"/><p><u>{data.address.city}, {data.address.province}, {data.address.country}, {data.address.code}</u></p>
