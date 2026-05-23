@@ -31,13 +31,7 @@ const NavBar = () => {
     return (
         <div style={navBarStyles}>
             <h1 style={nameStyles}>
-                <Typewriter
-                    words = {[`</> Hello! I am, ${data.name} ${data.surname} `]}
-                    loop = {1}
-                    cursor
-                    cursorStyle="|"
-                    typeSpeed={40}
-                />
+                    {`</> Hello! I am, ${data.name} ${data.surname} `}
             </h1>
             <img src='/images/profilePhoto.png' alt={data.name} style={imageStyles}/>
             <p className="sde-tittle"><u>{data.myTittle}</u></p>
