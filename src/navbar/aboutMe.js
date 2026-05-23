@@ -33,15 +33,21 @@ const NavBar = () => {
             <h1 style={nameStyles}>
                 <Typewriter
                     words = {[`</> Hello! I am, ${data.name} ${data.surname} `]}
-                    loop={0}
+                    loop = {1}
                     cursor
                     cursorStyle="|"
-                    typeSpeed={70}
+                    typeSpeed={40}
                 />
             </h1>
             <img src='/images/profilePhoto.png' alt={data.name} style={imageStyles}/>
             <p className="sde-tittle"><u>{data.myTittle}</u></p>
-            <p style={descriptionStyles} className="prf-summary">{data.myProfileSummary}</p>
+            <p style={descriptionStyles} className="prf-summary"><Typewriter 
+                    words = {[`${data.myProfileSummary}`]}
+                    loop = {1}
+                    cursor
+                    typeSpeed = {40}
+                />
+            </p>
         </div>
     )
 };
