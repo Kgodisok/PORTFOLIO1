@@ -28,6 +28,7 @@ const Footer = () => {
         if (!data) return <p>Loading...</p>;
     return (
             <footer styles={{backgroundColor: 'black', marginBottom: '0'}}>
+                <h1 style={{color:"white", background:"black", margin: "0px"}}>Contact Informantion</h1>
                 <div style={iconStyles} className="footer-contact-icons">
                     <a href={`https://wa.me/${data.cellPhoneNumber[0]}`} target="_blank" rel="noopener noreferrer">{< FaWhatsapp size={30}color="green"/>}</a>
                     <br />
