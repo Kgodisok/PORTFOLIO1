@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
 import localData from "../data/data.json";
-import { FaWhatsapp, FaEnvelope, FaPhone, FaLinkedinIn } from "react-icons/fa";
+import { FaWhatsapp, FaEnvelope, FaPhone, FaLinkedinIn, FaMapMarkerAlt} from "react-icons/fa";
 import { SiGithub } from "react-icons/si";
 import { iconStyles } from "./style";
 import { footerStyles } from "./style";
+
 
 const Footer = () => {
     const [data, setData] = useState(localData || null);
@@ -36,8 +37,8 @@ const Footer = () => {
                     <a href={data.github} target="_blank" rel="noopener noreferrer">
                     {<SiGithub size={30} />}</a><br />
                 </div>
-                <div style={footerStyles}>
-                    <p>{data.address.city}, {data.address.province}, {data.address.country}, {data.address.code}</p>
+                <div style={footerStyles} className="footer-cnt">
+                    <FaMapMarkerAlt /><p>{data.address.city}, {data.address.province}, {data.address.country}, {data.address.code}</p>
                 </div>
                 <div style={footerStyles}>
                     <p style={{ color: 'white', fontSize: "13px" }}>&copy; 2026 Matsepe Kgodiso | Built With React</p>
