@@ -146,5 +146,9 @@
 .footer-cnt {
   justify-content: center;
   align-items: center;
-  
 }
+.date {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}  

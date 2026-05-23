@@ -38,7 +38,7 @@ const Footer = () => {
                     {<SiGithub size={30} />}</a><br />
                 </div>
                 <div style={footerStyles} className="footer-cnt">
-                    <FaMapMarkerAlt /><p>{data.address.city}, {data.address.province}, {data.address.country}, {data.address.code}</p>
+                    <FaMapMarkerAlt color="blue"/><p><u>{data.address.city}, {data.address.province}, {data.address.country}, {data.address.code}</u></p>
                 </div>
                 <div style={footerStyles}>
                     <p style={{ color: 'white', fontSize: "13px" }}>&copy; 2026 Matsepe Kgodiso | Built With React</p>

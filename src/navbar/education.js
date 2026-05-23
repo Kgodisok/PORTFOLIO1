@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import localData from '../data/data.json'
-import { FaGraduationCap } from "react-icons/fa";
+import { FaGraduationCap, FaCalendarAlt } from "react-icons/fa";
 
 const EducationDetails = () => {
     const [data, setData] = useState(localData || null);
@@ -27,7 +27,10 @@ const EducationDetails = () => {
             <FaGraduationCap size={50} color='gold'/>
             <p><strong>School</strong>: {data.education.schoolName}</p>
             <p><strong>Course:</strong> {data.education.course}</p>
-            <p><strong>Date:</strong> {data.education.dateStarted} - {data.education.expectedGraduation}</p>
+            <div className='date'>
+                <FaCalendarAlt color='blue'/>
+                <p><strong>Date: </strong> {data.education.dateStarted} - {data.education.expectedGraduation} </p>
+            </ div>
         </div>
     );
 };
