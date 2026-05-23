@@ -19,6 +19,7 @@ import {
 const WebDev = () => {
   return (
     <section className="skills-section">
+      <h1>Technical Skills</h1>
 
       <div className="skills-grid">
 
