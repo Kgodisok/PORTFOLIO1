@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import localData from "../data/data.json";
 import { Typewriter } from "react-simple-typewriter";
+import { FaCode } from "react-icons/fa"
 
 import 
 { 
@@ -30,9 +31,12 @@ const NavBar = () => {
     if (!data) return <p>Loading...</p>;
     return (
         <div style={navBarStyles}>
-            <h1 style={nameStyles}>
-                    {`</> Hello World! I am, ${data.name} ${data.surname} `}
-            </h1>
+            <div className="faCode">
+            <FaCode color="white" size={45} /> 
+                <h1 style={nameStyles}>
+                        {`Hello World! I am, ${data.name} ${data.surname} `}
+                </h1>
+            </div>
             <img src='/images/profilePhoto.png' alt={data.name} style={imageStyles}/>
             <p className="sde-tittle"><u>{data.myTittle}</u></p>
             <p style={descriptionStyles} className="prf-summary"><Typewriter 

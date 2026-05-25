@@ -153,3 +153,9 @@ body {
   margin: 0;
   padding: 0;
 }
+.faCode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
