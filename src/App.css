@@ -116,7 +116,7 @@
 .live-btn:hover {
   background: khaki;
   font-size: 20px;
-  color: black
+  color: blue;
 }
 
 .skill-item-project {
@@ -159,4 +159,11 @@ body {
   align-items: center;
   justify-content: center;
   gap: 5px;
+}
+
+.project-content {
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
