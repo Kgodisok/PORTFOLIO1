@@ -28,7 +28,7 @@ const EducationDetails = () => {
             <p><strong>School</strong>: {data.education.schoolName}</p>
             <p><strong>Course:</strong> {data.education.course}</p>
             <div className='date'>
-                <FaCalendarAlt color='blue'/>
+                <FaCalendarAlt color='white'/>
                 <p><strong>Date: </strong> {data.education.dateStarted} - {data.education.expectedGraduation} </p>
             </ div>
         </div>

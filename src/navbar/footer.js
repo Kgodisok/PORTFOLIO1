@@ -34,12 +34,12 @@ const Footer = () => {
                     <br />
                     <a href={`mailto:${data.emailAddress}`}>{<FaEnvelope size={30} color="blue"/>}</a><br />
                     <a href={`tel:${data.cellPhoneNumber[0]}`}>{<FaPhone size={30} color="green"/>}</a><br />
-                    <a href={data.linkedIn} target="_blank" rel="noopener noreferrer">{<FaLinkedinIn size={30} color="blue"/>}</a><br />
+                    <a href={data.linkedIn} target="_blank" rel="noopener noreferrer">{<FaLinkedinIn size={30} color="white" />}</a><br />
                     <a href={data.github} target="_blank" rel="noopener noreferrer">
                     {<SiGithub size={30} color="white"/>}</a><br />
                 </div>
                 <div style={footerStyles} className="footer-cnt">
-                    <FaMapMarkerAlt color="blue"/><p><u>{data.address.city}, {data.address.province}, {data.address.country}, {data.address.code}</u></p>
+                    <FaMapMarkerAlt color="white"/><p><u>{data.address.city}, {data.address.province}, {data.address.country}, {data.address.code}</u></p>
                 </div>
                 <div style={footerStyles}>
                     <p style={{ color: 'white', fontSize: "13px" }}>&copy; 2026 Matsepe Kgodiso | Built With React</p>
