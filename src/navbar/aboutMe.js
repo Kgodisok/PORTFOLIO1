@@ -31,7 +31,7 @@ const NavBar = () => {
     return (
         <div style={navBarStyles}> 
                 <h1 style={nameStyles}>
-                        {`</> Hello World! I am, ${data.name} ${data.surname} `}
+                        {`< Hello World! I am, ${data.name} ${data.surname} />`}
                 </h1>
             <img src='/images/profilePhoto.png' alt={data.name} style={imageStyles}/>
             <p className="sde-tittle"><u>{data.myTittle}</u></p>
