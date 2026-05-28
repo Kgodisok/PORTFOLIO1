@@ -14,11 +14,6 @@ export const imageStyles = {
     margin: '20px auto'
 };
 
-export const navBarStyles = {
-    backgroundColor: 'black',
-    padding: '2px'
-};
-
 export const descriptionStyles = {
     fontSize: '18px',  
     margin: '20px auto',

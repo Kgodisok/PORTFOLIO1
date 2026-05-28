@@ -29,7 +29,7 @@ const NavBar = () => {
 
     if (!data) return <p>Loading...</p>;
     return (
-        <div style={navBarStyles}> 
+        <div className="hero"> 
                 <h1 style={nameStyles}>
                         {`< Hello World! I am ${data.name} ${data.surname} />`}
                 </h1>
