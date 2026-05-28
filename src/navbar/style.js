@@ -1,5 +1,5 @@
 export const nameStyles = {
-    fontSize: '45px',
+    fontSize: '36px',
     color: 'white',
     fontWeight: 'bold',
     textAlign: 'center',
