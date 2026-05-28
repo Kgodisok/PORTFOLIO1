@@ -30,11 +30,11 @@ const Footer = () => {
             <footer styles={{backgroundColor: 'black', marginBottom: '0'}}>
                 <h1 style={{color:"white", background:"black", margin: "0px"}}>Contact Informantion</h1>
                 <div style={iconStyles} className="footer-contact-icons">
-                    <a href={`https://wa.me/${data.cellPhoneNumber[0]}`} target="_blank" rel="noopener noreferrer">{< FaWhatsapp size={30}color="green"/>}</a>
+                    <a href={`https://wa.me/${data.cellPhoneNumber[0]}`} target="_blank" rel="noopener noreferrer">{< FaWhatsapp size={30} color="green"/>}</a>
                     <br />
-                    <a href={`tel:${data.cellPhoneNumber[0]}`}>{<FaPhone size={30} color="green"/>}</a><br />
-                    <a href={`mailto:${data.emailAddress}`}>{<FaEnvelope size={30} color="blue"/>}</a><br />
-                    <a href={data.linkedIn} target="_blank" rel="noopener noreferrer">{<FaLinkedinIn size={30} color="white" />}</a><br />
+                    <a href={`tel:${data.cellPhoneNumber[0]}`}>{<FaPhone size={30} color="darkGray"/>}</a><br />
+                    <a href={`mailto:${data.emailAddress}`}>{<FaEnvelope size={30} color="orange"/>}</a><br />
+                    <a href={data.linkedIn} target="_blank" rel="noopener noreferrer">{<FaLinkedinIn size={30} />}</a><br />
                     <a href={data.github} target="_blank" rel="noopener noreferrer">
                     {<SiGithub size={30} color="white"/>}</a><br />
                     <a href="https://x.com/Kgodiso398111" rel="noopener noreffer">{<FaXTwitter size={30} color="white"/>}</a>
