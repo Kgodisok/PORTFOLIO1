@@ -1,11 +1,10 @@
 import { useState, useEffect } from "react";
 import localData from "../data/data.json";
-import { FaWhatsapp, FaEnvelope, FaPhone, FaLinkedinIn, FaMapMarkerAlt, FaTwitter } from "react-icons/fa";
+import { FaWhatsapp, FaEnvelope, FaPhone, FaLinkedinIn, FaMapMarkerAlt } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { SiGithub } from "react-icons/si";
 import { iconStyles } from "./style";
 import { footerStyles } from "./style";
-
 
 const Footer = () => {
     const [data, setData] = useState(localData || null);
@@ -22,7 +21,7 @@ const Footer = () => {
             .then((json) => setData(json))
             .catch((err) => {
                 // keep the localData fallback in state and log the error for debugging
-                console.error("Could not fetch /information/data.json, using local data:", err);
+                console.error("Could not fetch data.json, using local data:", err);
             });
         }, []);
     
@@ -38,7 +37,7 @@ const Footer = () => {
                     <a href={data.linkedIn} target="_blank" rel="noopener noreferrer">{<FaLinkedinIn size={30} color="white" />}</a><br />
                     <a href={data.github} target="_blank" rel="noopener noreferrer">
                     {<SiGithub size={30} color="white"/>}</a><br />
-                    <a href="https://x.com/Kgodiso398111" rel="noopener noreffer">{<FaXTwitter size={30}/>}</a>
+                    <a href="https://x.com/Kgodiso398111" rel="noopener noreffer">{<FaXTwitter size={30} color="white"/>}</a>
                 </div>
                 <div style={footerStyles} className="footer-cnt">
                     <FaMapMarkerAlt color="white"/><p><u>{data.address.city}, {data.address.province}, {data.address.country}, {data.address.code}</u></p>
