@@ -1,0 +1,22 @@
+.projects {
+  background: black;
+  color: white;
+  margin-bottom: 0px;
+  padding-top: 30px;
+}
+.live-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.live-btn:hover {
+  background: khaki;
+  font-size: 20px;
+  color: blue;
+}
