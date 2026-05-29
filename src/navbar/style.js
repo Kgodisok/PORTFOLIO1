@@ -38,17 +38,7 @@ export const footerStyles = {
     backgroundColor: 'black', 
     color: 'white',
 };
-export const iconStyles ={
-    display: 'flex',
-    gap: '8px',
-    justifyContent: 'center',
-    backgroundColor: 'black',
-};
-
-export const footerStyles = { 
-    display: 'flex', 
-    justifyContent: 'center', 
-    backgroundColor: 'black', 
-    color: 'white',
-};
-
+export const navBarStyles = {
+    backgroundColor: "black",
+    padding: "2px"
+}
