@@ -1,0 +1,756 @@
+[33mcommit bf2a4ba30fe2ebe7c39813090b47cd17aeda2327[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mold-version[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Fri May 29 02:08:59 2026 +0200
+
+    Remove unused Image
+
+[33mcommit b306acd79ecdfb304af29d5abecb89291f9828e3[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Fri May 29 01:55:04 2026 +0200
+
+    Revert, discard background Image experiment
+
+[33mcommit 80fd8a3b20ce113b3e147c3f2d36a64b42ccb0db[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Thu May 28 23:00:34 2026 +0200
+
+    Reduce font size for tittle
+
+[33mcommit 801a6193d49328ebf17465ceb740493f4b2bd333[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Thu May 28 19:57:40 2026 +0200
+
+    Change the project description
+
+[33mcommit 5f2efd8fc6bbe6db1ca166e84e81c53b20a109eb[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Thu May 28 16:36:51 2026 +0200
+
+    Fix the tittle grammar error
+
+[33mcommit 4f058e32928f77cfa4c5285f36cb1a15ea639b34[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Thu May 28 15:59:33 2026 +0200
+
+    Clean code
+
+[33mcommit fc4a13f0945abf95ac43f4eb455e14304b12906e[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Thu May 28 15:54:09 2026 +0200
+
+    Change icons' colors
+
+[33mcommit 124a7f3f786a37f4832810421a273a2244fa9158[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Thu May 28 15:47:43 2026 +0200
+
+    Fix imported not used Twitter Icon
+
+[33mcommit 6ea40ccfbcd969b610d3adcc0e9169cb6183737b[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Thu May 28 15:41:41 2026 +0200
+
+    Add X.com Link
+
+[33mcommit 3b83e86f56320087f9d4ef443da681912d1cf720[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Thu May 28 15:27:28 2026 +0200
+
+    Use open and closing tag on the tittle
+
+[33mcommit 3242d618d0290b8b46c51f166e100118bd5f89b8[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon May 25 14:04:15 2026 +0200
+
+    Fix Vocabulary error on my profile summary content
+
+[33mcommit 7c43899d53b21852e9e8dd953d60f3eaf9ba6895[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon May 25 14:02:52 2026 +0200
+
+    Change profile summary content
+
+[33mcommit 55fec47caeb016e8c6169a191fd3fa0c0750bc64[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon May 25 14:00:41 2026 +0200
+
+    Change Profilr summary
+
+[33mcommit d2f0c79d6c5308da99113db2eda7f3df2084f287[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon May 25 13:30:57 2026 +0200
+
+    Add MySQL as a Database tool for Portmat project
+
+[33mcommit 979819cb74e0efda40bc16de9471dac1d2b3c941[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon May 25 13:25:54 2026 +0200
+
+    Specify project's content
+
+[33mcommit 80cf98274914ad587ce5c079e0ff27e49efb91c4[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon May 25 13:15:36 2026 +0200
+
+    Change the width of project's content
+
+[33mcommit 6ce1852320e86b468fb54fac0bf503b832542f70[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon May 25 12:57:14 2026 +0200
+
+    Change font-weight of the Live Button
+
+[33mcommit 159ce3205ea5e1f8ed9d926fb56b2a3f7319eb6b[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon May 25 12:53:12 2026 +0200
+
+    Remove FaCode icon on the tittle
+
+[33mcommit 73761d5c97e9e0bac87d9391e9c15951bb0a55a1[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon May 25 12:48:26 2026 +0200
+
+    Add FaLaptopCode
+
+[33mcommit 2c7a97f1dee5fe90ec94ccc5837fcb6f39c95c69[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon May 25 12:23:14 2026 +0200
+
+    Change icons' colors
+
+[33mcommit 28219dec2c320f6f77bad655a253f888d799f236[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Sat May 23 16:20:56 2026 +0200
+
+    Update welcoming tittle
+
+[33mcommit dcda015978fc21e907d1be87a81f51e671a682e4[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Sat May 23 16:06:29 2026 +0200
+
+     Remove borders
+
+[33mcommit bb025cfe72495813d0c75854e22ff03e1afdba22[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Sat May 23 15:27:36 2026 +0200
+
+    Use specific colors for whatsApp, Email, Phone, LinkedIn and Github
+
+[33mcommit 79399d168879583d6b50bf55867a9e836c83cf5c[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Sat May 23 15:17:02 2026 +0200
+
+    Modify with styles
+
+[33mcommit 014ff23869b3c50df20bec47a5384e2f61098dba[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Sat May 23 14:58:35 2026 +0200
+
+    Add Education GradIcon
+
+[33mcommit 4e813ff3234c97cb1fe22374e574af53c2cd7cc6[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Sat May 23 14:42:21 2026 +0200
+
+    Remove the typewrites on my tittle
+
+[33mcommit 31205b7067087d1066ca5dd02f8307214f678938[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Sat May 23 14:39:52 2026 +0200
+
+    Add location Icon to my address
+
+[33mcommit 69d44da7c2dbc2a3bddaccfdda094271f3f9007a[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Sat May 23 14:32:58 2026 +0200
+
+    Add the Technical Skills tittle
+
+[33mcommit 02c63c8efb06e6705d35e260e0812565d757a6a2[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Sat May 23 14:29:20 2026 +0200
+
+    Change the styles of the skill-card
+
+[33mcommit 8de4ea53f1631203275d73e9eace47e89433e3f1[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Sat May 23 14:26:14 2026 +0200
+
+    Change The tittle
+
+[33mcommit 31f6143731324a564f82ff11f47d51d7420bb76c[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Sat May 23 14:22:08 2026 +0200
+
+    Add styles to my portfolio
+
+[33mcommit 642ba4dd09b89f57426f7247af21d85a4973fa8a[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Sat May 23 13:29:42 2026 +0200
+
+    Add hover to my btn
+
+[33mcommit 2dd7a3d7124dd8b08228ce1371675aad9c6da4a8[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Sat May 23 13:02:40 2026 +0200
+
+    Add colors to my projects' tech-stack icons
+
+[33mcommit bd32a3e23022270ef3cd82b381691811ec45e008[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Sat May 23 12:54:46 2026 +0200
+
+    Removed non used module imported in a component
+
+[33mcommit 67a7ef24720f0a62f55ea277354e9c002be23bb8[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Sat May 23 12:44:29 2026 +0200
+
+    Increase the tech stack icons' sizes on the projet
+
+[33mcommit cad1322145c47732248b2d269ebf7ff70cd84e3e[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Sat May 23 12:02:35 2026 +0200
+
+    Install React animation motion and use it on my tittle
+
+[33mcommit 98ed40bd7816cebe54fc0170c34bfd95349a034a[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Sat May 23 02:05:36 2026 +0200
+
+    underline the tittle
+
+[33mcommit 2e4d4513ca9b74866ab4060cdb2aa4799941834b[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Sat May 23 01:59:35 2026 +0200
+
+    Add styles to summary and tittle
+
+[33mcommit bab60524d9673c248d0e39f63e06f47e494d2f86[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Sat May 23 01:25:07 2026 +0200
+
+    Add left and right 2px solid blue border
+
+[33mcommit c474ddbe09020bc72e6a735d28bdb88db59a32cd[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Sat May 23 01:21:05 2026 +0200
+
+    Add border 2px solid blue on projects and education
+
+[33mcommit a35510b0a84adb04a75b666a1b0ab8267f99d15f[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Sat May 23 01:08:52 2026 +0200
+
+    Include padding top and margin bottom
+
+[33mcommit bef4e46797fd90812911ea2e6e2ed445e31d95d8[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Sat May 23 00:51:16 2026 +0200
+
+    Reduce the fontSize of the footer content
+
+[33mcommit 9b50ff0bb37efe0d17909558fb85a396283bf761[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Sat May 23 00:41:08 2026 +0200
+
+    Add projects used skilled icons
+
+[33mcommit 0536ecdea853ad26e506618c39381d65f03a7865[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Sat May 23 00:07:23 2026 +0200
+
+    Change bakcground color of the education details and projects
+
+[33mcommit 0cf4075a778a457ae9856024f4cfe220ce376b48[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Fri May 22 23:43:13 2026 +0200
+
+    Modify Footer
+
+[33mcommit d7a759ecf1276fec6438428dccb696127d897f66[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Fri May 22 23:29:24 2026 +0200
+
+    Redeploy
+
+[33mcommit 585426fd2c7790ded0edf6625ae11bffbefd3261[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Fri May 22 23:28:10 2026 +0200
+
+    Trigger fresh deploy
+
+[33mcommit 8042b9c38e873b7a656eca6851dd518835ed6475[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Fri May 22 23:13:45 2026 +0200
+
+    Fix Package JSON file
+
+[33mcommit bea3a63bbfac691aa4dc6f16c35389cbdab5137f[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Fri May 22 22:59:20 2026 +0200
+
+    Fix project's sentence
+
+[33mcommit 569e2fe87cb7a0facd19e94fa6ced1e975f2e865[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Fri May 22 22:32:39 2026 +0200
+
+    Add my projects
+
+[33mcommit d66f9a58101c723b0dabeec99ee4a24ee1f39488[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Fri May 22 22:21:45 2026 +0200
+
+    Add Projects to my portfolio
+
+[33mcommit e30bd54495aa37382f86c6b8203016fc8eb66b31[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Fri May 22 22:17:22 2026 +0200
+
+    Add my projects to my portfolio
+
+[33mcommit 3ed763113252363333af1d3a997a3a3092bab1f7[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Fri May 22 22:11:26 2026 +0200
+
+    Add projects to my portfolio
+
+[33mcommit c26c8f7d4e11d7135b12a83be025e1811c2c65a6[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@mail.com>
+Date:   Sun May 17 22:47:42 2026 +0200
+
+    Modify profile summary
+
+[33mcommit 86b67713b6ed919f808d3835105285ec9bda7713[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@mail.com>
+Date:   Sun May 17 22:40:33 2026 +0200
+
+    Change my profile Summary
+
+[33mcommit 833d32a1b19ddd271535d18b5edcf6189766c53d[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@mail.com>
+Date:   Sun May 17 22:32:30 2026 +0200
+
+    Clean and Refactor code
+
+[33mcommit ff978583a3c1542b98d93c4d24c23ba268e190ba[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@mail.com>
+Date:   Sun May 17 13:31:20 2026 +0200
+
+    Separate footer styles from footer component file
+
+[33mcommit e87a4be38c59865dbc4c79e2631d42bf26053244[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@mail.com>
+Date:   Sun May 17 13:25:53 2026 +0200
+
+    Separate Styles from a component module file
+
+[33mcommit 18017c0f0f553cf27b1b761af25f233f04e7ae1c[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@mail.com>
+Date:   Sun May 17 13:20:26 2026 +0200
+
+    Fix Data Not captured from JSON
+
+[33mcommit ed568cb28e84456d7ac345c70cfd373310f962d8[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@mail.com>
+Date:   Sun May 17 13:18:17 2026 +0200
+
+    Fix Data from JSON not loading
+
+[33mcommit 535be316681dfac614843772e21a5e7509b414c8[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@mail.com>
+Date:   Sun May 17 13:14:05 2026 +0200
+
+    Fix Data not loading
+
+[33mcommit 6fef62812a7a4635135b9137824b2b9a24c16b31[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@mail.com>
+Date:   Sun May 17 11:22:34 2026 +0200
+
+    Update new features
+
+[33mcommit 275448e885063327aa46054d91677a44392611ad[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@mail.com>
+Date:   Fri May 15 15:45:56 2026 +0200
+
+    Add My Resume to the Directory
+
+[33mcommit 6b0beefd6c9f92b6f3a306ad977282d115261510[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@mail.com>
+Date:   Fri May 15 15:10:56 2026 +0200
+
+    Add Italics on the footer description
+
+[33mcommit b03d49360a2aed339f473cf26038020212c5e9d7[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@mail.com>
+Date:   Fri May 15 15:05:31 2026 +0200
+
+    Modify Description
+
+[33mcommit b62442622932ef303cb912431038039904370c98[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@mail.com>
+Date:   Fri May 15 14:49:11 2026 +0200
+
+    Add my address
+
+[33mcommit 4dab53c8f58965919102d01817fd225e7f34b0dc[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@mail.com>
+Date:   Fri May 15 14:28:13 2026 +0200
+
+    Remove Junk words
+
+[33mcommit cb19ff29ffd2a001d7b1f1a12a8fe8ed5592f4e2[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@mail.com>
+Date:   Fri May 15 14:25:11 2026 +0200
+
+    Add Education Details
+
+[33mcommit 3e8a34ae6f051628667a1337acb1cd3676c94122[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@mail.com>
+Date:   Fri May 15 07:17:21 2026 +0200
+
+    Rename name.js to aboutMe.js
+
+[33mcommit 1ba6ecea109c43f41d59bfa40924c4dade194f86[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@mail.com>
+Date:   Fri May 15 06:58:16 2026 +0200
+
+    Remove .js extension on Javascript module
+
+[33mcommit 3d9b05a1a43390b30903a2dc1d06d683edb4b2dd[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@mail.com>
+Date:   Thu May 14 23:03:37 2026 +0200
+
+    Change the HTML tittle from React App to Matsepe Kgodiso Personal Website
+
+[33mcommit be251427878567a62a54b5009725edcfef44dbd8[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@mail.com>
+Date:   Thu May 14 22:51:30 2026 +0200
+
+    Delete Junk Code Files
+
+[33mcommit ef5b504e85cf4302f67f05262d10af096cfa3d2d[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Tue May 12 12:04:20 2026 +0200
+
+    group skills into cards with responsive layouts
+
+[33mcommit 984a6bbab28c0638c4eb2a08d27a67b367c5de44[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Tue May 12 11:42:49 2026 +0200
+
+    Use div to separate skills
+
+[33mcommit 13ca7cfba03bc3edb57e8313e12244d9a886adb5[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Tue May 12 11:29:46 2026 +0200
+
+    Change Footer Styling
+
+[33mcommit b1112621ad1611857be9f219e0c1812e835c0de6[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Tue May 12 11:20:54 2026 +0200
+
+    Increase icon size
+
+[33mcommit 201d123caf569213306feef3642ed459e4221685[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Tue May 12 11:05:41 2026 +0200
+
+    Remove unused variables causing Vercel build failure
+
+[33mcommit c7461a3e9a27bd9ac83f80fc55ca1d6345b59518[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Tue May 12 10:50:45 2026 +0200
+
+    Add Icons to my skills
+
+[33mcommit f01eed6d12cf48113b5cf015847de100b69b94ef[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Tue May 12 09:07:03 2026 +0200
+
+    Add skills and change skills component to light indigo
+
+[33mcommit f3e1b26799fc278c4c7bd153e70ccef4461fb459[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Wed May 6 08:54:34 2026 +0200
+
+    Add  HTML and CSS
+
+[33mcommit b9407b0e00d94ec65ed6a85af4679e08c7c8f664[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Wed May 6 08:46:08 2026 +0200
+
+    Reduce margin and padding of skills
+
+[33mcommit 96fae0976e53ea76067e1ef0100ec3d628c11121[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Wed May 6 08:30:04 2026 +0200
+
+    Decrease font size of my description
+
+[33mcommit 3a9f8f3badef98e2a42148b9b73c022c202ac426[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Wed May 6 08:27:21 2026 +0200
+
+    Decrease font-size of Icons
+
+[33mcommit 50252269dd844902227ad826a052d916d7a26192[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Tue May 5 11:57:10 2026 +0200
+
+    change color
+
+[33mcommit f917db139f3731a7081b4bb58571bf6b5c226350[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Thu Apr 23 11:42:16 2026 +0200
+
+    Change Title to Junior Software Developer
+
+[33mcommit f46449118cf103cddd667f4fa9244f2ca995427e[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Thu Apr 23 11:30:46 2026 +0200
+
+    Update Skills and Add style
+
+[33mcommit b936b0cd98a328ef5286fbd2eb9508097a339336[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Thu Apr 23 10:24:28 2026 +0200
+
+    Update the description styles
+
+[33mcommit 7527f0af60dea8c1817169c540803633d8d53898[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon Apr 20 09:14:52 2026 +0200
+
+    Change node engines to 24.x
+
+[33mcommit f328d3a21514b990920f5edd7b2cb651ec12c175[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon Apr 20 09:10:19 2026 +0200
+
+    Fix Error
+
+[33mcommit 452d673dcc4a792968540b729bb9456c29ab8c81[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Fri Apr 17 13:21:13 2026 +0200
+
+    Fix Error
+
+[33mcommit 321ce3d2c1b42a6bd1ebc031771c46e2e9f7e362[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Fri Apr 17 13:11:17 2026 +0200
+
+    Update Styles
+
+[33mcommit 19b4242288898effb7bd50d86450397a122bf6aa[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Fri Apr 17 09:33:55 2026 +0200
+
+    Update
+
+[33mcommit bab4994c8d2f6d325c359af00ac1e16145128f5b[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Fri Apr 17 09:32:03 2026 +0200
+
+    Delete Uwanted Files
+
+[33mcommit 06a51970ad0d6f68f1625f7b5b0d4d694d8156bc[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Fri Apr 17 09:22:31 2026 +0200
+
+    Fix Fetch Data Error
+
+[33mcommit 890ffb5a3fe51f4448a6304afda5fd5b68230392[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Wed Apr 15 13:27:15 2026 +0200
+
+    Add frameWorks
+
+[33mcommit cd806b20dec394214a4263e5845964e53fbe27c1[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Wed Apr 15 12:10:51 2026 +0200
+
+    Fix error
+
+[33mcommit abfc2feb6c9e7de669aeb188673d7c87a7d03612[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Wed Apr 15 12:06:49 2026 +0200
+
+    Update Node
+
+[33mcommit c63d76160406aa887d5862a1ac03f480ba97c0dc[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Wed Apr 15 11:52:23 2026 +0200
+
+    Update Fetch Data
+
+[33mcommit 9946cb0aecc12ab0f8aa6e8e73def135d4a36df4[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Tue Apr 14 16:28:03 2026 +0200
+
+    Fix Error
+
+[33mcommit 96a681055634a10ab3088e01085db8aca1ef2153[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Tue Apr 14 16:21:00 2026 +0200
+
+    Update Add skills
+
+[33mcommit 901937e87383b342b041d55888548d88c7a1015a[m
+Merge: 86d6fc3 93da967
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon Apr 13 16:23:02 2026 +0200
+
+    Fix Errors
+
+[33mcommit 86d6fc362e15290d197e33c5d9b024c58564cec0[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon Apr 13 16:20:25 2026 +0200
+
+    change profile Photo
+
+[33mcommit 93da967541e3f51f79137aabf373bdb269a539e0[m
+Author: Kgodisok <kgodisomatsepe474@gmail.com>
+Date:   Mon Apr 13 16:11:41 2026 +0200
+
+    Update profile image source in names.js
+
+[33mcommit e64e7bf67e521aff41d56ba799ca380cb8c23cae[m
+Author: Kgodisok <kgodisomatsepe474@gmail.com>
+Date:   Mon Apr 13 16:10:11 2026 +0200
+
+    Delete public/profilePhoto.jpg
+
+[33mcommit f1fdd1be36d2954260c2bb6319ff36dd11f07c34[m
+Author: Kgodisok <kgodisomatsepe474@gmail.com>
+Date:   Mon Apr 13 16:02:49 2026 +0200
+
+    Update profile image source in names.js
+
+[33mcommit e1a96288548ae581149eee858d1f4d0f53a1067a[m
+Author: Kgodisok <kgodisomatsepe474@gmail.com>
+Date:   Mon Apr 13 16:01:26 2026 +0200
+
+    Rename public/images/IMG-20260210-WA0009.jpg to public/profilePhoto.jpg
+
+[33mcommit 68e1d7999c008e14a7da9d6bf9bbdf1b78d7bbfb[m
+Author: Kgodisok <kgodisomatsepe474@gmail.com>
+Date:   Mon Apr 13 16:00:15 2026 +0200
+
+    Add image
+
+[33mcommit 64b311baefe27e4b0e5f8d1884f810cc754564fc[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon Apr 13 15:51:28 2026 +0200
+
+    Update
+
+[33mcommit 7dd0562f835caed3c920d5f0c0013a3cb009268f[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon Apr 13 15:35:14 2026 +0200
+
+    Update
+
+[33mcommit f74a9d4ea7615fc657bc413e82cacf9be91840d6[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon Apr 13 15:23:50 2026 +0200
+
+    Fix LinkedIn Error
+
+[33mcommit 7425b1bc87103d74b2e5064546b5e65e358f5452[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon Apr 13 15:19:39 2026 +0200
+
+    Update Contact Icons
+
+[33mcommit 0cdc121bccb2f9f2dc19ba818b7ef2ff5676da77[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon Apr 13 14:42:59 2026 +0200
+
+    Fix Errors
+
+[33mcommit 5335a9c9c50719795ab04abbe26d6f4321c4496f[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon Apr 13 14:36:50 2026 +0200
+
+    Fix Import Errors
+
+[33mcommit 721e4d936f2538827921be083fb19bbc771dd94c[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon Apr 13 14:30:44 2026 +0200
+
+    Update footer
+
+[33mcommit 9d324eaadc5692ff3fff970d6a6b8fd09f33783a[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon Apr 13 14:27:02 2026 +0200
+
+    Change Case
+
+[33mcommit eb66ba844c574c3b230a425c27ec4e928fff249c[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon Apr 13 14:24:07 2026 +0200
+
+    Update Information Details
+
+[33mcommit 457046194845e650e4fbd727e13691747e0bcf88[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon Apr 13 14:20:48 2026 +0200
+
+    Fix Errors
+
+[33mcommit f92ed33c1464d60b9c200dcd45e91cd4b5cacb1b[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon Apr 13 12:58:08 2026 +0200
+
+    Fix Erro
+
+[33mcommit d02a88414f3545da2bde8c00bfd3835e3ff05bb4[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon Apr 13 12:53:38 2026 +0200
+
+    Fix error
+
+[33mcommit 5466951dc0ddc24bb54b1cb88d403b70a6f01c59[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon Apr 13 12:32:00 2026 +0200
+
+    Add styles
+
+[33mcommit f2743b36319588913c5d9c4e68ba5f609227c666[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon Apr 13 12:28:04 2026 +0200
+
+    Fix Typing Error
+
+[33mcommit a4be8994c3c620e81d3360a57e9154ddd080f16b[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Mon Apr 13 12:25:14 2026 +0200
+
+    Add Foooter
+
+[33mcommit 580dd2432b3391f9daf9150caab5c7ec6f418fb6[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Thu Apr 9 14:04:00 2026 +0200
+
+    fix vercel build errors
+
+[33mcommit a2bb881069d3115d3e08cdd3af1794b4ba683e35[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Thu Apr 9 13:38:42 2026 +0200
+
+    update on my portfolio project
+
+[33mcommit d15d1be352b7842f838756ce47d50fdc79fa5b11[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Thu Mar 26 14:24:13 2026 +0200
+
+    My react project for my portfolio
+
+[33mcommit 82b9cc542c95b0fba6964395005fd65f1015801e[m
+Author: Matsepe Kgodiso <kgodisomatsepe474@gmail.com>
+Date:   Thu Mar 26 13:56:51 2026 +0200
+
+    Initialize project using Create React App
