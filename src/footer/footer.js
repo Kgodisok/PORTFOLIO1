@@ -5,7 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { SiGithub } from "react-icons/si";
 import { iconStyles } from "../footer/footerStyles";
 import { footerStyles } from "../footer/footerStyles";
-import './footer.css'
+import './footer.css';
 
 const Footer = () => {
     const [data, setData] = useState(localData || null);
