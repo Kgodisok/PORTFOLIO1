@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import localData from "../data/data.json";
 import { Typewriter } from "react-simple-typewriter";
+import './aboutMe.css'
 
 import 
 { 
@@ -8,7 +9,7 @@ import
     navBarStyles, 
     descriptionStyles, 
     nameStyles,
-} from "./style";
+} from "./aboutMeStyles";
 
 const NavBar = () => {
     const [data, setData] = useState(localData || null);
@@ -47,7 +48,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
-
-
-

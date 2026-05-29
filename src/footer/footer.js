@@ -36,7 +36,7 @@ const Footer = () => {
                     <a href={`mailto:${data.emailAddress}`}>{<FaEnvelope size={30} color="orange"/>}</a><br />
                     <a href={data.linkedIn} target="_blank" rel="noopener noreferrer">{<FaLinkedinIn size={30} />}</a><br />
                     <a href={data.github} target="_blank" rel="noopener noreferrer">{<SiGithub size={30} color="white"/>}</a><br />
-                    <a href="{data.x}" rel="noopener noreffer">{<FaXTwitter size={30} color="white"/>}</a>
+                    <a href={data.x} rel="noopener noreffer">{<FaXTwitter size={30} color="white"/>}</a>
                 </div>
                 <div style={footerStyles} className="footer-cnt">
                     <FaMapMarkerAlt color="white"/><p><u>{data.address.city}, {data.address.province}, {data.address.country}, {data.address.code}</u></p>

@@ -6,7 +6,7 @@ import {
     SiMysql
 } from "react-icons/si";
 import { FaLaptopCode } from "react-icons/fa";
-import './projects.css'
+import './projects.css';
 
 const Projects = () => {
     return (

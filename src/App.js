@@ -1,9 +1,9 @@
 import './App.css';
-import NavBar from './navbar/aboutMe';
-import Footer from './navbar/footer';
-import WebDev from './navbar/webdevskills';
-import EducationDetails from './navbar/education';
-import Projects from './navbar/projects';
+import NavBar from './aboutMe/aboutMe';
+import Footer from './footer/footer';
+import WebDev from './webDevSkills/webDevSkills';
+import EducationDetails from './education/education';
+import Projects from './projects/projects';
 
 function App() {
   return (
