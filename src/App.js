@@ -1,18 +1,21 @@
 import './App.css';
-import NavBar from './aboutMe/aboutMe';
-import Footer from './footer/footer';
-import WebDev from './webDevSkills/webDevSkills';
-import EducationDetails from './education/education';
-import Projects from './projects/projects';
+import { lazy, Suspense } from 'react';
+const NavBar  = lazy(() => import('./aboutMe/aboutMe'));
+const Footer  = lazy(() => import('./footer/footer'));
+const WebDev  = lazy(() => import('./webDevSkills/webDevSkills'));
+const EducationDetails = lazy(() => import('./education/education'));
+const Projects = lazy(() => import('./projects/projects'));
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <WebDev />
-      <Projects />
-      <EducationDetails />
-      <Footer />
+      <Suspense fallback ={<div>Loading Portfolio...</div>}>
+        <NavBar />
+        <WebDev />
+        <Projects />
+        <EducationDetails />
+        <Footer />
+        </Suspense>
     </div>
   );
 }
