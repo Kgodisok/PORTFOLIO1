@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import localData from "../data/data.json";
 import { Typewriter } from "react-simple-typewriter";
-import './aboutMe.css'
+import './aboutMe.css';
 
 import 
 { 
@@ -28,7 +28,7 @@ const NavBar = () => {
         });
     }, []);
 
-    if (!data) return <p>Loading...</p>;
+    if (!data) return <div>Loading...</div>;
     return (
         <div style={navBarStyles}> 
                 <h1 style={nameStyles}>

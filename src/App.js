@@ -6,10 +6,11 @@ const WebDev  = lazy(() => import('./webDevSkills/webDevSkills'));
 const EducationDetails = lazy(() => import('./education/education'));
 const Projects = lazy(() => import('./projects/projects'));
 
+
 function App() {
   return (
     <div className="App">
-      <Suspense fallback ={<div>Loading Portfolio...</div>}>
+      <Suspense fallback ={<div>Loading...</div>}>
         <NavBar />
         <WebDev />
         <Projects />
