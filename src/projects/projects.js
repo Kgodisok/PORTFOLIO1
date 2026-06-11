@@ -11,7 +11,7 @@ import './projects.css';
 const Projects = () => {
     return (
         <div className="projects">
-            <h1>Projects</h1>
+            <h1 style={{fontWeight: '450'}}>Projects</h1>
             <FaLaptopCode color="white" size={45}/>
             <h2>Findrooms | Portmat – Accommodation Marketplace</h2>
             <p className="skill-item-project"><strong>Tech Stack</strong> React <SiReact size={30} color="#61DBFB"/>, Node <SiNodedotjs size={30} color="#68A063"/>, Express <SiExpress size={30}/>, MySQL <SiMysql size={40} color="#00758F" /> & JSON <SiJson size={22}/></p>

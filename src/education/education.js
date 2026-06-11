@@ -9,7 +9,7 @@ const EducationDetails = () => {
 
   return (
     <section className="education-details">
-      <h1>Education</h1>
+      <h1 style={{fontWeight: '450'}}>Education</h1>
       <FaGraduationCap size={50} color="gold" />
       <p>
         <strong>School</strong>: {data.education.schoolName}

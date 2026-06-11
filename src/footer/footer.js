@@ -12,7 +12,7 @@ const Footer = () => {
 
   return (
     <footer style={{ backgroundColor: 'black', marginBottom: 0 }}>
-      <h1 style={{ color: 'white', background: 'black', margin: 0 }}>Contact Information</h1>
+      <h1 style={{ color: 'white', background: 'black', margin: 0, fontWeight: '450' }}>Contact Information</h1>
       <div style={iconStyles} className="footer-contact-icons">
         <a href={`https://wa.me/${data.cellPhoneNumber[0]}`} target="_blank" rel="noopener noreferrer">
           <FaWhatsapp size={30} color="green" />
