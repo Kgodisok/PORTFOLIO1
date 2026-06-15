@@ -13,7 +13,7 @@ const Projects = () => {
         <div className="projects">
             <h1 style={{fontWeight: '450'}}>Projects</h1>
             <FaLaptopCode color="white" size={45}/>
-            <h3>Findrooms | Portmat – Accommodation Marketplace</h3>
+            <h3><u>Findrooms | Portmat – Accommodation Marketplace</u></h3>
             <p className="skill-item-project"><strong>Tech Stack</strong> React <SiReact size={30} color="#61DBFB"/>, Node <SiNodedotjs size={30} color="#68A063"/>, Express <SiExpress size={30}/>, MySQL <SiMysql size={40} color="#00758F" /> & JSON <SiJson size={22}/></p>
             <p className="project-content">Independently developed and deployed 'FindRooms | Portmat', a live full-stack accommodation platform built with React (Vite), Node.js, Express, and MySQL. The platform is currently live and actively serves real-time accommodation data through integrated RESTful API endpoints. The React (Vite) frontend communicates directly with the Node.js/Express backend to fetch, process, and render dynamic listings, enabling responsive search and filtering based on user input.
 
