@@ -53,11 +53,12 @@ const WebDev = () => {
             <div className="skill-item">
               <SiCss size={22} color="#264de4" /> CSS3
             </div>
-            <div className="skill-item">
-              <SiReact size={22} color="#61DBFB" /> React
-            </div>
+            
             <div className="skill-item">
               <SiTypescript size={22} color="#3178C6" /> TypeScript
+            </div>
+            <div className="skill-item">
+              <SiReact size={22} color="#61DBFB" /> React
             </div>
             
           </div>
