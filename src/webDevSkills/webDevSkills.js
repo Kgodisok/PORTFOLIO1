@@ -4,6 +4,7 @@ import {
   SiHtml5,
   SiCss,
   SiReact,
+  SiTypescript,
   SiFlask,
   SiNodedotjs,
   SiExpress,
@@ -34,7 +35,7 @@ const WebDev = () => {
               <SiPython size={22} color="#306998" /> Python
             </div>
             <div className="skill-item">
-              <SiJavascript size={22} color="#f0db4f" /> JavaScript
+              <SiJavascript size={22} color="#f0db4f" /> JavaScript(ES6+)
             </div>
             <div className="skill-item">
               <FaJava size={22} color="#007396" /> Java
@@ -54,6 +55,9 @@ const WebDev = () => {
             </div>
             <div className="skill-item">
               <SiReact size={22} color="#61DBFB" /> React
+            </div>
+            <div className="skill-item">
+              <SiTypescript size={22} color="#3178C6" /> TypeScript
             </div>
             
           </div>
