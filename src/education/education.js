@@ -8,22 +8,17 @@ const EducationDetails = () => {
   if (!data) return <p>Loading...</p>;
 
   return (
+    
+    
     <section className="education-details">
-      <h1 style={{fontWeight: '450'}}>Education</h1>
-      <FaGraduationCap size={50} color="gold" />
-      <p>
-        <strong>School</strong>: {data.education.schoolName}
-      </p>
-      <p>
-        <strong>Course:</strong> {data.education.course}
-      </p>
-      <div className="date">
-        <FaCalendarAlt color="white" />
-        <p>
-          <strong>Date:</strong> {data.education.dateStarted} - {data.education.expectedGraduation}
-        </p>
-      </div>
+       <h1 style={{fontWeight: '450'}}>Education</h1>
+        <FaGraduationCap size={50} color="gold" />
+         <p><strong>School</strong>: {data.education.schoolName} </p>
+         <p> <strong>Course:</strong> {data.education.course} </p> 
+         <div className="date"> <FaCalendarAlt color="white" /> <p> <strong>Date:</strong> {data.education.dateStarted} - {data.education.expectedGraduation} </p> 
+         </div> 
     </section>
+   
   );
 };
 
