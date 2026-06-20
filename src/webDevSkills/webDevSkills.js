@@ -15,6 +15,7 @@ import {
   SiGithub,
   SiFigma
 } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 
 import './webDevSkills.css'
 
@@ -35,6 +36,9 @@ const WebDev = () => {
             <div className="skill-item">
               <SiJavascript size={22} color="#f0db4f" /> JavaScript
             </div>
+            <div className="skill-item">
+              <FaJava size={22} color="#007396" /> Java
+            </div>
           </div>
         </div>
 
@@ -51,6 +55,7 @@ const WebDev = () => {
             <div className="skill-item">
               <SiReact size={22} color="#61DBFB" /> React
             </div>
+            
           </div>
         </div>
 
