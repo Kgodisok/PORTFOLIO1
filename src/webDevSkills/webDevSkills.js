@@ -14,9 +14,10 @@ import {
   SiJson,
   SiGit,
   SiGithub,
-  SiFigma
+  SiFigma,
 } from "react-icons/si";
-import { FaJava } from "react-icons/fa";
+import { FaJava, FaAws } from "react-icons/fa";
+import { VscVscode } from "react-icons/vsc";
 
 import './webDevSkills.css'
 
@@ -26,7 +27,7 @@ const WebDev = () => {
       <h1>Technical Skills</h1>
 
       <div className="skills-grid">
-        
+
         <div className="skill-card">
           <h3>Programming Languages</h3>
           <div className="skill-list">
@@ -100,7 +101,13 @@ const WebDev = () => {
 
        
         <div className="skill-card">
-          <h3>Development Tools</h3>
+          <h3>Development Tools/ Productivity</h3>
+          <div className="skill-item">
+            <VscVscode size={22} color="#007ACC" /> VS Code
+          </div>
+          <div className="skill-item">
+            <FaAws size={22} color="#FF9900" /> AWS
+          </div>
           <div className="skill-list">
             <div className="skill-item">
               <SiGit size={22} color="#F05032" /> Git
