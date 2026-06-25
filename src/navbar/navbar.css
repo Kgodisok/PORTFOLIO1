@@ -6,6 +6,7 @@ nav {
 
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 2rem;
 
   padding: 1rem;
@@ -13,16 +14,33 @@ nav {
 
   z-index: 1000;
   border-bottom: 1px solid grey;
+
+  flex-wrap: wrap; /* 🔥 FIX OVERFLOW */
 }
 
+/* links */
 nav a {
   color: white;
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: 500;
+
+  white-space: nowrap; /* prevents ugly breaking */
 }
 
 nav a:hover {
   color: #ddd;
   text-decoration: underline;
+}
+
+/* 🔥 MOBILE FIX */
+@media (max-width: 600px) {
+  nav {
+    gap: 1rem;
+    padding: 0.8rem;
+  }
+
+  nav a {
+    font-size: 0.9rem;
+  }
 }
