@@ -1,13 +1,6 @@
-import { Typewriter } from 'react-simple-typewriter';
-import './aboutMe.css';
-import usePortfolioData from '../hooks/usePortfolioData';
-
-import {
-  imageStyles,
-  navBarStyles,
-  descriptionStyles,
-  aboutMeStyles
-} from './aboutMeStyles';
+import { Typewriter } from "react-simple-typewriter";
+import usePortfolioData from "../hooks/usePortfolioData";
+import "./aboutMe.css";
 
 const AboutMe = () => {
   const data = usePortfolioData();
@@ -15,17 +8,30 @@ const AboutMe = () => {
   if (!data) return <div>Loading...</div>;
 
   return (
-    <div id='about' style={aboutMeStyles}>
-    <section style={navBarStyles}>
-      <img src="/images/profilePhoto.png" alt={data.name} style={imageStyles} />
-      <p className="sde-tittle">
-        <u>{data.myTittle}</u>
-      </p>
-      <p style={descriptionStyles} className="prf-summary">
-        <Typewriter words={[data.myProfileSummary]} loop={1} cursor typeSpeed={40} />
-      </p>
+    <section id="about">
+      <div className="aboutContent">
+        {/* Profile Image */}
+        <img
+          src="/images/profilePhoto.png"
+          alt={data.name}
+        />
+
+        {/* Title */}
+        <p className="sde-tittle">
+          <u>{data.myTittle}</u>
+        </p>
+
+        {/* Description */}
+        <p className="prf-summary">
+          <Typewriter
+            words={[data.myProfileSummary]}
+            loop={1}
+            cursor
+            typeSpeed={40}
+          />
+        </p>
+      </div>
     </section>
-    </div>
   );
 };
 
