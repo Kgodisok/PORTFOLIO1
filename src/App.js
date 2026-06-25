@@ -1,4 +1,5 @@
 import './App.css';
+import NavBar from './navbar/navbar';
 import AboutMe from './aboutMe/aboutMe';
 import Footer from './footer/footer';
 import WebDev from './webDevSkills/webDevSkills';
@@ -8,6 +9,7 @@ import Projects from './projects/projects';
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <AboutMe />
       <WebDev />
       <Projects />

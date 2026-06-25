@@ -1,0 +1,28 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+
+  padding: 1rem;
+  background-color: black;
+
+  z-index: 1000;
+  border-bottom: 1px solid grey;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #ddd;
+  text-decoration: underline;
+}

@@ -8,8 +8,7 @@ const EducationDetails = () => {
   if (!data) return <p>Loading...</p>;
 
   return (
-    
-    
+    <div id='education'>
     <section className="education-details">
        <h1 style={{fontWeight: '450'}}>Education</h1>
         <FaGraduationCap size={50} color="gold" />
@@ -18,6 +17,7 @@ const EducationDetails = () => {
          <div className="date"> <FaCalendarAlt color="white" /> <p> <strong>Date:</strong> {data.education.dateStarted} - {data.education.expectedGraduation} </p> 
          </div> 
     </section>
+    </div>
    
   );
 };

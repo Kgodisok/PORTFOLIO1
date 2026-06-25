@@ -22,7 +22,7 @@ import './webDevSkills.css'
 
 const WebDev = () => {
   return (
-    <section className="skills-section">
+    <section id="skills" className="skills-section">
       <h1>Technical Skills</h1>
 
       <div className="skills-grid">

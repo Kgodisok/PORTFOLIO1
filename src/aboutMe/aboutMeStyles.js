@@ -1,11 +1,3 @@
-export const nameStyles = {
-    fontSize: '45px',
-    color: 'white',
-    fontWeight: 'bold',
-    textAlign: 'center',
-    marginTop: '20px'
-};
-
 export const imageStyles = {
     width: '200px',
     height: '200px',
@@ -28,4 +20,8 @@ export const descriptionStyles = {
 export const navBarStyles = {
     backgroundColor: "black",
     padding: "2px"
+}
+
+export const aboutMeStyles = {
+    paddingTop: "50px",
 }

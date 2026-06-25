@@ -10,7 +10,7 @@ import './projects.css';
 
 const Projects = () => {
     return (
-        <div className="projects">
+        <div id="projects" className="projects">
             <h1 style={{fontWeight: '450'}}>Projects</h1>
             <FaLaptopCode color="white" size={45}/>
             <h3><u>Findrooms | Portmat – Accommodation Marketplace</u></h3>

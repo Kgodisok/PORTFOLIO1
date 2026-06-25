@@ -6,7 +6,7 @@ import {
   imageStyles,
   navBarStyles,
   descriptionStyles,
-  nameStyles,
+  aboutMeStyles
 } from './aboutMeStyles';
 
 const AboutMe = () => {
@@ -15,8 +15,8 @@ const AboutMe = () => {
   if (!data) return <div>Loading...</div>;
 
   return (
+    <div id='about' style={aboutMeStyles}>
     <section style={navBarStyles}>
-      <h1 style={nameStyles}>{`< Hello World! I am ${data.name} ${data.surname} />`}</h1>
       <img src="/images/profilePhoto.png" alt={data.name} style={imageStyles} />
       <p className="sde-tittle">
         <u>{data.myTittle}</u>
@@ -25,6 +25,7 @@ const AboutMe = () => {
         <Typewriter words={[data.myProfileSummary]} loop={1} cursor typeSpeed={40} />
       </p>
     </section>
+    </div>
   );
 };
 
