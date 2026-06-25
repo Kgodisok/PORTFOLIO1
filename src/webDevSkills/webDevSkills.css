@@ -37,7 +37,6 @@
   font-size: 0.95rem;
 }
 
-/* Hover effect */
 .skill-card:hover {
   transform: translateY(-4px);
   transition: 0.2s ease;

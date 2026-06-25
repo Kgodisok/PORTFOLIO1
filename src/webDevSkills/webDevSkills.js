@@ -26,8 +26,7 @@ const WebDev = () => {
       <h1>Technical Skills</h1>
 
       <div className="skills-grid">
-
-        {/* Programming Languages */}
+        
         <div className="skill-card">
           <h3>Programming Languages</h3>
           <div className="skill-list">
@@ -43,7 +42,7 @@ const WebDev = () => {
           </div>
         </div>
 
-        {/* Front-End */}
+      
         <div className="skill-card">
           <h3>Front‑End</h3>
           <div className="skill-list">
@@ -64,7 +63,7 @@ const WebDev = () => {
           </div>
         </div>
 
-        {/* Back-End */}
+       
         <div className="skill-card">
           <h3>Back‑End</h3>
           <div className="skill-list">
@@ -83,7 +82,7 @@ const WebDev = () => {
           </div>
         </div>
 
-        {/* Databases */}
+        
         <div className="skill-card">
           <h3>Databases</h3>
           <div className="skill-list">
@@ -99,7 +98,7 @@ const WebDev = () => {
           </div>
         </div>
 
-        {/* Tools */}
+       
         <div className="skill-card">
           <h3>Development Tools</h3>
           <div className="skill-list">
