@@ -16,7 +16,7 @@ import {
   SiGithub,
   SiFigma,
 } from "react-icons/si";
-import { FaJava, FaAws } from "react-icons/fa";
+import { FaJava, FaAws, FaFileExcel } from "react-icons/fa";
 import { VscVscode } from "react-icons/vsc";
 
 import './webDevSkills.css'
@@ -107,6 +107,9 @@ const WebDev = () => {
           </div>
           <div className="skill-item">
             <FaAws size={22} color="#FF9900" /> AWS
+          </div>
+          <div>
+            <FaFileExcel size={22} color="#217346"/> MS Excel
           </div>
           <div className="skill-list">
             <div className="skill-item">
