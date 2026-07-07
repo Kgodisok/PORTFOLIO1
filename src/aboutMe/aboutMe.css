@@ -77,6 +77,8 @@
 .image-and-name {
   display: flex;
   flex-direction: row;
+  object-fit: cover;
+
 }
 .myName {
   font-size: 40px;
