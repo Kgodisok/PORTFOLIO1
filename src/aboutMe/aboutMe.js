@@ -10,17 +10,14 @@ const AboutMe = () => {
   return (
     <section id="about">
       <div className="aboutContent">
+        <div className="image-and-name">
+          <p className="myName">Matsepe Kgodiso</p>
+          <img
+            src="/images/profilePhoto.png"
+            alt={data.name}
+          />
+        </div>
 
-        <img
-          src="/images/profilePhoto.png"
-          alt={data.name}
-        />
-
-        <p className="sde-tittle">
-          <u>{data.myTittle}</u>
-        </p>
-
-       
         <p className="prf-summary">
           <Typewriter
             words={[data.myProfileSummary]}
