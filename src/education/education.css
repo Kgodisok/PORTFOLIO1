@@ -136,23 +136,25 @@
 .view-btn {
   background-color: #3b82f6;
   color: #ffffff;
+  border: 1px solid gold;
 }
 
 .view-btn:hover {
   background-color: #2563eb;
   box-shadow: 0 0 12px rgba(59, 130, 246, 0.4);
+  border: 1px solid gold;
 }
 
 .download-btn {
   background-color: transparent;
   color: #cbd5e1;
-  border: 1px solid #334155;
+  border: 1px solid #2563eb;
 }
 
 .download-btn:hover {
   background-color: #1e293b;
   color: #ffffff;
-  border-color: #475569;
+  
 }
 
 @media (max-width: 640px) {
