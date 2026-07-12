@@ -94,7 +94,7 @@ const WebDev = () => {
               <SiPostgresql size={22} color="#336791" /> PostgreSQL
             </div>
             <div className="skill-item">
-              <SiJson size={22} color="#4A4A4A"/> JSON
+              <SiJson size={22} color="#4A4A4A" /> JSON
             </div>
           </div>
         </div>
@@ -109,14 +109,14 @@ const WebDev = () => {
             <FaAws size={22} color="#FF9900" /> AWS
           </div>
           <div className="skill-item">
-            <FaFileExcel size={22} color="#217346"/> MS Excel
+            <FaFileExcel size={22} color="#217346" /> MS Excel
           </div>
           <div className="skill-list">
             <div className="skill-item">
               <SiGit size={22} color="#F05032" /> Git
             </div>
             <div className="skill-item">
-              <SiGithub size={22} color="black"/> GitHub
+              <SiGithub size={22} color="black" /> GitHub
             </div>
             <div className="skill-item">
               <SiFigma size={22} color="#F24E1E" /> Figma
