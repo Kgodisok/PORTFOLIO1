@@ -45,7 +45,7 @@ const Footer = () => {
       <div style={footerStyles}>
         <div className='footer-rights'>
         <p style={{ color: 'white', fontSize: '13px' }}>Built and designed by Kgodiso Matsepe.</p>
-        <p style={{ color: 'white', fontSize: '13px' }}>&copy; All rights reserved. &copy;</p>
+        <p style={{ color: 'white', fontSize: '13px' }}>All rights reserved. &copy;</p>
         </div>
       </div>
     </footer>
