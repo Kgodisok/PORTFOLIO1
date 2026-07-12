@@ -11,7 +11,7 @@ const Footer = () => {
   if (!data) return <p>Loading...</p>;
 
   return (
-    <div id='contacts'>
+    <div id='contacts' className='contacts'>
     <footer style={{ backgroundColor: 'black', marginBottom: 0 }}>
       <h1 style={{ color: 'white', background: 'black', margin: 0, fontWeight: '450' }}>Contact Information</h1>
       <div style={iconStyles} className="footer-contact-icons">
@@ -43,7 +43,10 @@ const Footer = () => {
         </p>
       </div>
       <div style={footerStyles}>
-        <p style={{ color: 'white', fontSize: '13px' }}>&copy; 2026 Matsepe Kgodiso | Built With React</p>
+        <div className='footer-rights'>
+        <p style={{ color: 'white', fontSize: '13px' }}>Built and designed by Kgodiso Matsepe.</p>
+        <p style={{ color: 'white', fontSize: '13px' }}>&copy; All rights reserved. &copy;</p>
+        </div>
       </div>
     </footer>
     </div>
