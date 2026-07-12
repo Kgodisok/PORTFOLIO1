@@ -69,13 +69,13 @@ const WebDev = () => {
           <h3>Back‑End</h3>
           <div className="skill-list">
             <div className="skill-item">
-              <SiFlask size={22} /> Flask API
+              <SiFlask size={22} color="black" /> Flask API
             </div>
             <div className="skill-item">
               <SiNodedotjs size={22} color="#68A063" /> Node
             </div>
             <div className="skill-item">
-              <SiExpress size={22} /> Express
+              <SiExpress size={22} color="black"/> Express
             </div>
             <div className="skill-item">
               <SiSpringboot size={22} color="#6DB33F" /> Spring Boot
@@ -94,7 +94,7 @@ const WebDev = () => {
               <SiPostgresql size={22} color="#336791" /> PostgreSQL
             </div>
             <div className="skill-item">
-              <SiJson size={22} /> JSON
+              <SiJson size={22} color="#4A4A4A"/> JSON
             </div>
           </div>
         </div>
@@ -116,7 +116,7 @@ const WebDev = () => {
               <SiGit size={22} color="#F05032" /> Git
             </div>
             <div className="skill-item">
-              <SiGithub size={22} /> GitHub
+              <SiGithub size={22} color="black"/> GitHub
             </div>
             <div className="skill-item">
               <SiFigma size={22} color="#F24E1E" /> Figma
