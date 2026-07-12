@@ -108,7 +108,7 @@ const WebDev = () => {
           <div className="skill-item">
             <FaAws size={22} color="#FF9900" /> AWS
           </div>
-          <div>
+          <div className="skill-item">
             <FaFileExcel size={22} color="#217346"/> MS Excel
           </div>
           <div className="skill-list">
