@@ -6,6 +6,8 @@ import WebDev from './webDevSkills/webDevSkills';
 import EducationDetails from './education/education';
 import Projects from './projects/projects';
 
+
+
 function App() {
   return (
     <div className="App">
