@@ -95,7 +95,7 @@
 
 .certificate-card {
   background: #0f172a;
-  border: 1px solid #3b82f6;
+  border: 1px solid gold;
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -105,7 +105,7 @@
 
 .certificate-card:hover {
   transform: translateY(-4px);
-  border-color: gold;
+  border-color: #2275ea;
 }
 
 .certificate-card h4 {
