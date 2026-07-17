@@ -26,7 +26,7 @@ const EducationDetails = () => {
       type: "Certificate"
     },
     {
-      title: "Microsoft Internet Fundamentals Certification",
+      title: "MTN Skills Academy GSMA Digital Skills: Apps & Internet Essentials",
       fileName: "Internet_Fundamentals_Certification.pdf",
       type: "Certificate"
     }
