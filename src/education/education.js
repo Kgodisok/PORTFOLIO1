@@ -21,13 +21,13 @@ const EducationDetails = () => {
       type: "Certificate"
     },
     {
-      title: "Excel Fundamentals for Data Analysis",
+      title: "Coursera Excel Fundamentals for Data Analysis",
       fileName: "Matsepe_Kgodiso_Excel_Fundamentals_For_Data_Analysis.pdf",
       type: "Certificate"
     },
     {
-      title: "MTN Skills Academy - Internet Fundamentals",
-      fileName: "Matsepe_Kgodiso_Internet_Fundamentals_Certificate.pdf",
+      title: "Microsoft Internet Fundamentals Certification",
+      fileName: "Internet_Fundamentals_Certification.pdf",
       type: "Certificate"
     }
   ];
