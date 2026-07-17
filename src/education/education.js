@@ -16,13 +16,13 @@ const EducationDetails = () => {
       type: "Transcript"
     },
     {
-      title: "Microsoft Generative AI",
-      fileName: "Matsepe_Kgodiso_Generative_AI__Certificate.pdf",
+      title: "Microsoft Introduction to AI",
+      fileName: "Matsepe_Kgodiso_Microsoft_Introduction_to_AI.pdf",
       type: "Certificate"
     },
     {
-      title: "Microsoft AI Basics",
-      fileName: "Matsepe_Kgodiso_Microsoft_AI_basics_Certificate.pdf",
+      title: "Excel Fundamentals for Data Analysis",
+      fileName: "Matsepe_Kgodiso_Excel_Fundamentals_For_Data_Analysis.pdf",
       type: "Certificate"
     },
     {
