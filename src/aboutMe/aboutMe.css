@@ -16,13 +16,13 @@
 
 .aboutContent img {
   width: 200px;
-  height: 200px;
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
   object-fit: cover;
   display: block;
   margin: 0 auto 20px auto;
-
-  border: 2px solid white; 
+  border: 2px solid white;
 }
 
 
@@ -60,7 +60,7 @@
 
   .aboutContent img {
     width: 150px;
-    height: 150px;
+    aspect-ratio: 1 / 1;
   }
 
   .sde-tittle {
