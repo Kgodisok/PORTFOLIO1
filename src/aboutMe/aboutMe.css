@@ -63,6 +63,19 @@
     aspect-ratio: 1 / 1;
   }
 
+  .image-and-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .myName {
+    margin-left: 0;
+    padding-top: 0;
+    font-size: 32px;
+  }
+
   .sde-tittle {
     font-size: 18px;
   }
