@@ -21,6 +21,11 @@ const EducationDetails = () => {
       type: "Certificate"
     },
     {
+      title: "IoT (Internet of Things) Wireless & Cloud Computing Emerging Technologies",
+      fileName: "Matsepe_Kgodiso_Cloud_Computing_certificate.pdf",
+      type: "Certificate"
+    },
+    {
       title: "Coursera Excel Fundamentals for Data Analysis",
       fileName: "Matsepe_Kgodiso_Excel_Fundamentals_For_Data_Analysis.pdf",
       type: "Certificate"
