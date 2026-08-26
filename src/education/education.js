@@ -34,6 +34,11 @@ const EducationDetails = () => {
       title: "MTN Skills Academy GSMA Digital Skills: Apps & Internet Essentials",
       fileName: "Internet_Fundamentals_Certification.pdf",
       type: "Certificate"
+    },
+    {
+      title: "Basic Information Literacy",
+      fileName: "Matsepe_Kgodiso_Basic_Data_Literacy_certificate.pdf",
+      type: "Certificate"
     }
   ];
 
