@@ -20,6 +20,12 @@ const EducationDetails = () => {
       category: "Meta Frontend Development"
     },
     {
+      title: "React Basics - Meta",
+      fileName: "Matsepe_Kgodiso_React_Basics_Meta_Certificate.pdf",
+      type: "Certificate",
+      category: "Meta Frontend Development"
+    },
+    {
       title: "Programming with JavaScript - Meta",
       fileName: "Matsepe_Kgodiso_Programming_With_JavaScript_Meta_Certificate.pdf",
       type: "Certificate",
