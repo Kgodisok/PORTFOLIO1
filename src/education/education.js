@@ -79,7 +79,7 @@ const EducationDetails = () => {
   return (
     <div id="education" className="education-container">
       <section className="education-section">
-
+      
         <h1 className="section-title">Meta Frontend Development (In Progress)</h1>
 
         <div className="certifications-grid">
