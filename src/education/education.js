@@ -66,6 +66,12 @@ const EducationDetails = () => {
       fileName: "Matsepe_Kgodiso_Basic_Data_Literacy_certificate.pdf",
       type: "Certificate",
       category: "Professional"
+    },
+    {
+      title: "Microsoft Word - Coursera",
+      fileName: "Matsepe_Kgodiso_Microsoft_Word_Coursera_certificate.pdf",
+      type: "Certificate",
+      category: "Professional"
     }
   ];
 
