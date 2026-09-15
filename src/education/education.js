@@ -38,6 +38,12 @@ const EducationDetails = () => {
       category: "Meta Frontend Development"
     },
     {
+      title: "Advanced React - Meta",
+      fileName: "Matsepe_Kgodiso_Advanced_React_Meta_Certificate.pdf",
+      type: "Certificate",
+      category: "Meta Frontend Development"
+    },
+    {
       title: "Microsoft Introduction to AI",
       fileName: "Matsepe_Kgodiso_Microsoft_Introduction_to_AI.pdf",
       type: "Certificate",
@@ -119,7 +125,6 @@ const EducationDetails = () => {
 
         <hr className="section-divider" />
 
-       
         <h1 className="section-title">Professional Certifications</h1>
 
         <div className="certifications-grid">
