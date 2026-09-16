@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kgodiso Matsepe | Resume</title>
+  <style>
+    :root {
+      --ink: #17202a;
+      --muted: #53606b;
+      --accent: #0d6b6e;
+      --line: #d8e1e4;
+      --paper: #ffffff;
+      --canvas: #edf2f1;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--canvas);
+      color: var(--ink);
+      font: 14px/1.5 "Segoe UI", Calibri, sans-serif;
+    }
+    .page {
+      width: min(100%, 900px);
+      margin: 32px auto;
+      padding: 48px 58px;
+      background: var(--paper);
+      box-shadow: 0 12px 35px rgba(23, 32, 42, .12);
+    }
+    header { border-bottom: 3px solid var(--accent); padding-bottom: 22px; }
+    h1 { margin: 0; font-size: 38px; letter-spacing: .02em; line-height: 1.1; }
+    .role { margin: 7px 0 14px; color: var(--accent); font-size: 18px; font-weight: 600; }
+    .contact { display: flex; flex-wrap: wrap; gap: 6px 18px; color: var(--muted); }
+    a { color: inherit; }
+    .contact a, .credential a { color: var(--accent); text-decoration: none; }
+    main { display: grid; grid-template-columns: 1.4fr 1.1fr; gap: 30px; padding-top: 26px; }
+    section { margin-bottom: 25px; }
+    h2 {
+      margin: 0 0 10px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid var(--line);
+      color: var(--accent);
+      font-size: 14px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    h3 { margin: 0; font-size: 16px; }
+    p { margin: 7px 0 0; }
+    .meta { color: var(--muted); font-size: 13px; }
+    ul { margin: 8px 0 0; padding-left: 19px; }
+    li { margin: 4px 0; }
+    .skills { display: flex; flex-wrap: wrap; gap: 6px; }
+    .skill { padding: 3px 7px; border: 1px solid var(--line); color: var(--muted); font-size: 12px; }
+    .credential { margin: 0 0 7px; line-height: 1.35; }
+    .credential a { font-size: 12px; }
+    .small { font-size: 13px; }
+    @media (max-width: 700px) {
+      .page { margin: 0; padding: 30px 24px; box-shadow: none; }
+      main { grid-template-columns: 1fr; gap: 0; }
+      h1 { font-size: 32px; }
+    }
+    @media print {
+      body { background: #fff; }
+      .page { width: auto; margin: 0; padding: 0; box-shadow: none; }
+      a { text-decoration: none; }
+    }
+  </style>
+</head>
+<body>
+  <article class="page">
+    <header>
+      <h1>Matsepe Kgodiso</h1>
+      <div class="role">Junior Software Developer</div>
+      <div class="contact">
+        <a href="mailto:kgodisomatsepe474@gmail.com">kgodisomatsepe474@gmail.com</a>
+        <a href="tel:+27796338442">+27 79 633 8442</a>
+        <span>Pretoria, Gauteng, South Africa</span>
+        <a href="https://www.linkedin.com/in/kgodiso-matsepe-86050627/">LinkedIn</a>
+        <a href="https://github.com/Kgodisok/">GitHub</a>
+      </div>
+    </header>
+
+    <main>
+      <div>
+        <section>
+          <h2>Profile</h2>
+          <p>Software development student and founder of FindRooms, an accommodation platform. Experienced in building full-stack applications with Python, JavaScript, React, Node.js, and Express. Seeking a junior developer or internship opportunity to contribute to real-world software while continuing to grow technically.</p>
+        </section>
+
+        <section>
+          <h2>Project Experience</h2>
+          <h3>FindRooms | Portmat - Accommodation Marketplace</h3>
+          <div class="meta">Founder and Developer | <a href="https://www.findrooms.co.za">findrooms.co.za</a></div>
+          <ul>
+            <li>Founded, developed, and deployed a live full-stack accommodation platform.</li>
+            <li>Built dynamic accommodation listings, search, and filtering with React, Node.js, Express, and MySQL.</li>
+            <li>Integrated RESTful APIs and used React lazy loading and Suspense to improve the user experience.</li>
+            <li>Managed the product from concept and development through deployment and production hosting.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Languages</h2>
+          <p>Southern Sotho (Segakopa), English</p>
+        </section>
+      </div>
+
+      <aside>
+        <section>
+          <h2>Technical Skills</h2>
+          <div class="skills">
+            <span class="skill">Python</span><span class="skill">JavaScript</span><span class="skill">Java</span><span class="skill">C#</span>
+            <span class="skill">React</span><span class="skill">HTML5</span><span class="skill">CSS3</span><span class="skill">TypeScript</span>
+            <span class="skill">Node.js</span><span class="skill">Express.js</span><span class="skill">Flask API</span><span class="skill">Spring Boot</span>
+            <span class="skill">MySQL</span><span class="skill">PostgreSQL</span><span class="skill">SQL</span><span class="skill">JSON</span>
+            <span class="skill">AWS</span><span class="skill">Git</span><span class="skill">GitHub</span><span class="skill">VS Code</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Certifications</h2>
+          <div class="credential"><strong>Meta Frontend Development</strong><br><a href="Matsepe_Kgodiso_Introduction_to_frontend_development_Meta_Certificate.pdf">Introduction to Front-End Development</a></div>
+          <div class="credential"><a href="Matsepe_Kgodiso_HTML_and_CSS_Meta_Certificate.pdf">HTML and CSS in Depth</a></div>
+          <div class="credential"><a href="Matsepe_Kgodiso_React_Basics_Meta_Certificate.pdf">React Basics</a></div>
+          <div class="credential"><a href="Matsepe_Kgodiso_Programming_With_JavaScript_Meta_Certificate.pdf">Programming with JavaScript</a></div>
+          <div class="credential"><a href="Matsepe_Kgodiso_Version_Control_Meta_Certificate.pdf">Version Control</a></div>
+          <div class="credential"><a href="Matsepe_Kgodiso_Advanced_React_Meta_Certificate.pdf">Advanced React</a></div>
+          <div class="credential"><strong>Professional</strong><br><a href="Matsepe_Kgodiso_Microsoft_Introduction_to_AI.pdf">Microsoft Introduction to AI</a></div>
+          <div class="credential"><a href="Matsepe_Kgodiso_Cloud_Computing_certificate.pdf">IoT Wireless &amp; Cloud Computing</a></div>
+          <div class="credential"><a href="Matsepe_Kgodiso_Excel_Fundamentals_For_Data_Analysis.pdf">Excel Fundamentals for Data Analysis</a></div>
+          <div class="credential"><a href="Internet_Fundamentals_Certification.pdf">GSMA Digital Skills: Apps &amp; Internet Essentials</a></div>
+          <div class="credential"><a href="Matsepe_Kgodiso_Basic_Data_Literacy_certificate.pdf">Basic Information Literacy</a></div>
+          <div class="credential"><a href="Matsepe_Kgodiso_Microsoft_Word_Coursera_certificate.pdf">Microsoft Word</a></div>
+        </section>
+      </aside>
+    </main>
+  </article>
+</body>
+</html>
