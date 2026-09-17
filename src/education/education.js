@@ -44,6 +44,18 @@ const EducationDetails = () => {
       category: "Meta Frontend Development"
     },
     {
+      title: "Principles of UI/UX Design - Meta",
+      fileName: "Matsepe_Kgodiso_Principles_Of_UI_UX_Design_Meta_Certificate.pdf",
+      type: "Certificate",
+      category: "Meta Frontend Development"
+    },
+    {
+      title: "Coding Interview Preparation - Meta",
+      fileName: "Matsepe_Kgodiso_Coding_Interview_Preparation.pdf",
+      type: "Certificate",
+      category: "Meta Frontend Development"
+    },
+    {
       title: "Microsoft Introduction to AI",
       fileName: "Matsepe_Kgodiso_Microsoft_Introduction_to_AI.pdf",
       type: "Certificate",
@@ -92,7 +104,7 @@ const EducationDetails = () => {
     <div id="education" className="education-container">
       <section className="education-section">
       
-        <h1 className="section-title">Meta Frontend Development (In Progress)</h1>
+        <h1 className="section-title">Meta Frontend Development (Completed)</h1>
 
         <div className="certifications-grid">
           {metaCertificates.map((cert) => (
