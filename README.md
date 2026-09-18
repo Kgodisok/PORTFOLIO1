@@ -1,72 +1,83 @@
-ADD
+# Matsepe Kgodiso
 
-# Getting Started with Create React App
+## Junior Software Developer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I am Matsepe Kgodiso, a junior software developer and the founder of FindRooms, an accommodation platform built to solve real-world problems through digital innovation. I enjoy turning ideas into practical, user-friendly applications and I am passionate about learning, building, and improving software solutions that make an impact.
 
-## Available Scripts
+I am currently pursuing software development at Tech Performance Centre and am eager to contribute to a development team as a junior developer. My goal is to keep growing as a full-stack developer while building reliable, scalable, and meaningful products.
 
-In the project directory, you can run:
+## About Me
 
-### `npm start`
+- Based in Pretoria, South Africa
+- Passionate about software development, problem-solving, and product innovation
+- Interested in full-stack development, web applications, APIs, and modern user experiences
+- Strong focus on building real-world solutions that meet user needs
+- Entrepreneurial mindset with a drive to create practical digital products
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technical Skills
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Programming Languages
+- Python
+- JavaScript (ES6+)
+- Java
 
-### `npm test`
+### Front-End Development
+- HTML5
+- CSS3
+- TypeScript
+- React
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Back-End Development
+- Flask
+- Node.js
+- Express
+- Spring Boot
 
-### `npm run build`
+### Databases
+- MySQL
+- PostgreSQL
+- JSON
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Tools and Technologies
+- VS Code
+- Git
+- GitHub
+- AWS
+- Figma
+- Microsoft Excel
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Certifications
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Meta Frontend Development
+- Introduction to Front-End Development
+- HTML and CSS in Depth
+- React Basics
+- Programming with JavaScript
+- Version Control
+- Advanced React
+- Principles of UI/UX Design
+- Front-End Developer Capstone
+- Coding Interview Preparation
 
-### `npm run eject`
+### Professional Certifications
+- Microsoft Introduction to AI
+- IoT Wireless & Cloud Computing
+- Excel Fundamentals for Data Analysis
+- GSMA Digital Skills: Apps & Internet Essentials
+- Basic Information Literacy
+- Microsoft Word
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Projects and Interests
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I enjoy building products that combine technical execution with value to users. My work includes developing web applications, backend services, and solutions focused on functionality, performance, and usability.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contact
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Email: kgodisomatsepe474@gmail.com
+- LinkedIn: https://www.linkedin.com/in/kgodiso-matsepe-86050627b/
+- GitHub: https://github.com/Kgodisok/
+- X: https://x.com/Kgodiso398111
 
-## Learn More
+## Summary
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I am a motivated junior developer with a strong foundation in modern web technologies, a problem-solving mindset, and a passion for building digital solutions that matter. I am ready to learn, contribute, and grow in a collaborative software development environment.
