@@ -49,7 +49,7 @@ def build():
         p("kgodisomatsepe474@gmail.com &nbsp;&nbsp; | &nbsp;&nbsp; +27 79 633 8442 &nbsp;&nbsp; | &nbsp;&nbsp; Pretoria, Gauteng, South Africa<br/>LinkedIn: linkedin.com/in/kgodiso-matsepe-86050627 &nbsp;&nbsp; | &nbsp;&nbsp; GitHub: github.com/Kgodisok", "Contact"),
         Spacer(1, 7 * mm),
         p("PROFESSIONAL SUMMARY", "Heading"),
-        p("Software development student and founder of FindRooms, an accommodation platform. Experienced in building full-stack applications with Python, JavaScript, React, Node.js, and Express. Seeking a junior developer or internship opportunity to contribute to real-world software while continuing to grow technically.", "Body"),
+        p("Junior software developer and founder of FindRooms, an accommodation platform. Experienced in building full-stack applications with Python, JavaScript, React, Node.js, and Express, with a strong focus on creating practical digital solutions and improving user experience. Seeking a junior developer opportunity to contribute technical skills, product thinking, and problem-solving in a collaborative software team.", "Body"),
         p("TECHNICAL SKILLS", "Heading"),
         p("Programming: Python, JavaScript, Java, C#<br/>Frontend: React, HTML5, CSS3, TypeScript<br/>Backend: Node.js, Express.js, Flask API, Spring Boot<br/>Databases: MySQL, PostgreSQL, SQL, JSON<br/>Cloud and Tools: AWS, Git, GitHub, VS Code", "Skill"),
         p("PROJECT EXPERIENCE", "Heading"),
