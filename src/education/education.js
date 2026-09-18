@@ -50,6 +50,12 @@ const EducationDetails = () => {
       category: "Meta Frontend Development"
     },
     {
+      title: "Front-End Developer Capstone - Meta",
+      fileName: "Matsepe_Kgodiso_FrontEnd_Developer_Capstone_Meta_Certificate.pdf",
+      type: "Certificate",
+      category: "Meta Frontend Development"
+    },
+    {
       title: "Coding Interview Preparation - Meta",
       fileName: "Matsepe_Kgodiso_Coding_Interview_Preparation.pdf",
       type: "Certificate",
