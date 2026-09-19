@@ -62,6 +62,12 @@ const EducationDetails = () => {
       category: "Meta Frontend Development"
     },
     {
+      title: "Introduction to Back-End Development - Meta",
+      fileName: "Matsepe_Kgodiso_Introduction_To_Backend_Meta_Certficate.pdf",
+      type: "Certificate",
+      category: "Meta Backend Development"
+    },
+    {
       title: "Microsoft Introduction to AI",
       fileName: "Matsepe_Kgodiso_Microsoft_Introduction_to_AI.pdf",
       type: "Certificate",
@@ -102,6 +108,9 @@ const EducationDetails = () => {
   const metaCertificates = documents.filter(
     doc => doc.type === "Certificate" && doc.category === "Meta Frontend Development"
   );
+  const metaBackendCertificates = documents.filter(
+    doc => doc.type === "Certificate" && doc.category === "Meta Backend Development"
+  );
   const certificates = documents.filter(
     doc => doc.type === "Certificate" && doc.category === "Professional"
   );
@@ -114,6 +123,39 @@ const EducationDetails = () => {
 
         <div className="certifications-grid">
           {metaCertificates.map((cert) => (
+            <div key={cert.fileName || cert.title} className="certificate-card">
+              <h4>{cert.title}</h4>
+
+              <div className="certificate-buttons">
+                <a
+                  href={`/myDocuments/${cert.fileName}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn view-btn"
+                  aria-label={`View ${cert.title}`}
+                >
+                  View Certificate
+                </a>
+
+                <a
+                  href={`/myDocuments/${cert.fileName}`}
+                  download
+                  className="btn download-btn"
+                  aria-label={`Download ${cert.title}`}
+                >
+                  Download
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <hr className="section-divider" />
+
+        <h1 className="section-title">Meta Back-End Developer</h1>
+
+        <div className="certifications-grid">
+          {metaBackendCertificates.map((cert) => (
             <div key={cert.fileName || cert.title} className="certificate-card">
               <h4>{cert.title}</h4>
 
