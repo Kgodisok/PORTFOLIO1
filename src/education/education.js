@@ -74,6 +74,12 @@ const EducationDetails = () => {
       category: "Meta Backend Development"
     },
     {
+      title: "Introduction to Databases for Backend Development - Meta",
+      fileName: "Matsepe_Kgodiso_Introduction_To_DataBase_For_Backend_Development.pdf",
+      type: "Certificate",
+      category: "Meta Backend Development"
+    },
+    {
       title: "Microsoft Introduction to AI",
       fileName: "Matsepe_Kgodiso_Microsoft_Introduction_to_AI.pdf",
       type: "Certificate",
