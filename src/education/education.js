@@ -35,7 +35,7 @@ const EducationDetails = () => {
       title: "Version Control - Meta",
       fileName: "Matsepe_Kgodiso_Version_Control_Meta_Certificate.pdf",
       type: "Certificate",
-      category: "Meta Frontend Development"
+      category: "Meta Backend Development"
     },
     {
       title: "Advanced React - Meta",
@@ -59,7 +59,7 @@ const EducationDetails = () => {
       title: "Coding Interview Preparation - Meta",
       fileName: "Matsepe_Kgodiso_Coding_Interview_Preparation.pdf",
       type: "Certificate",
-      category: "Meta Frontend Development"
+      category: "Meta Backend Development"
     },
     {
       title: "Introduction to Back-End Development - Meta",
