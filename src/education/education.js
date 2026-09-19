@@ -80,6 +80,12 @@ const EducationDetails = () => {
       category: "Meta Backend Development"
     },
     {
+      title: "Django Framework - Meta",
+      fileName: "Matsepe_Kgodiso_Django_FrameWork_Meta_Certificate.pdf",
+      type: "Certificate",
+      category: "Meta Backend Development"
+    },
+    {
       title: "Microsoft Introduction to AI",
       fileName: "Matsepe_Kgodiso_Microsoft_Introduction_to_AI.pdf",
       type: "Certificate",
