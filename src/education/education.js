@@ -8,6 +8,12 @@ const EducationDetails = () => {
 
   const documents = [
     {
+      title: "Meta Front-End Developer Certificate",
+      fileName: "Matsepe_Kgodiso_Meta_Front_End_Developer_Certificate.pdf",
+      type: "Certificate",
+      category: "Meta Frontend Development"
+    },
+    {
       title: "Introduction to Front-End Development - Meta",
       fileName: "Matsepe_Kgodiso_Introduction_to_frontend_development_Meta_Certificate.pdf",
       type: "Certificate",
@@ -76,6 +82,18 @@ const EducationDetails = () => {
     {
       title: "Introduction to Databases for Backend Development - Meta",
       fileName: "Matsepe_Kgodiso_Introduction_To_DataBase_For_Backend_Development.pdf",
+      type: "Certificate",
+      category: "Meta Backend Development"
+    },
+    {
+      title: "APIs - Meta",
+      fileName: "Matsepe_Kgodiso_APIs_Meta_Certificate.pdf",
+      type: "Certificate",
+      category: "Meta Backend Development"
+    },
+    {
+      title: "Back-End Developer Capstone - Meta",
+      fileName: "Matsepe_Kgodiso_Backend_Developer_Capstone_Meta_Certificate.pdf",
       type: "Certificate",
       category: "Meta Backend Development"
     },
