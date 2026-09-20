@@ -49,6 +49,7 @@ I am currently pursuing software development at Tech Performance Centre and am e
 ## Certifications
 
 ### Meta Frontend Development
+- Meta Front-End Developer Certificate
 - Introduction to Front-End Development
 - HTML and CSS in Depth
 - React Basics
@@ -57,6 +58,14 @@ I am currently pursuing software development at Tech Performance Centre and am e
 - Advanced React
 - Principles of UI/UX Design
 - Front-End Developer Capstone
+
+### Meta Backend Development
+- Introduction to Back-End Development
+- Programming in Python
+- Introduction to Databases for Backend Development
+- APIs
+- Back-End Developer Capstone
+- Django Framework
 - Coding Interview Preparation
 
 ### Professional Certifications
