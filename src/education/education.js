@@ -154,7 +154,9 @@ const EducationDetails = () => {
   return (
     <div id="education" className="education-container">
       <section className="education-section">
-      
+
+        <h1 className="section-title">Certificates</h1>
+
         <h1 className="section-title">Meta Front-End Developer</h1>
 
         <div className="certifications-grid">
