@@ -9,7 +9,6 @@ const NavBar = () => {
                 <a href="#projects">Projects</a>
                 <a href="#education">Education</a>
                 <a href='#skills'>Skills</a>
-                <a href="/myDocuments/Kgodiso_Matsepe_Resume.pdf" download>Resume</a>
                 <a href="#contacts">Contacts</a>
             </nav>
         </div>
