@@ -23,7 +23,7 @@ const AboutMe = () => {
             words={[data.myProfileSummary]}
             loop={1}
             cursor
-            typeSpeed={40}
+            typeSpeed={70}
           />
         </p>
       </div>
