@@ -116,6 +116,16 @@
   font-weight: 500;
 }
 
+.certificate-card p {
+  color: #ffffff;
+  margin: 0.35rem 0;
+  line-height: 1.6;
+}
+
+.certificate-card strong {
+  color: #ffffff;
+}
+
 .certificate-buttons {
   display: flex;
   gap: 0.75rem;

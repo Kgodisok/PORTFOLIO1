@@ -161,6 +161,18 @@ const EducationDetails = () => {
     <div id="education" className="education-container">
       <section className="education-section">
 
+        <h1 className="section-title">Education</h1>
+
+        <div className="certifications-grid">
+          <div className="certificate-card">
+            <h4>National Senior Certificate (Matric)</h4>
+            <p><strong>Moshate Senior Secondary School</strong></p>
+            <p>Distinctions in Mathematics (83%) and Physical Science (78%) — Top Learner (2021)</p>
+          </div>
+        </div>
+
+        <hr className="section-divider" />
+
         <h1 className="section-title">Certificates</h1>
 
         <h1 className="section-title">Meta Front-End Developer</h1>
