@@ -8,7 +8,13 @@ const EducationDetails = () => {
 
   const documents = [
     {
-      title: "Meta Front-End Developer Certificate",
+      title: "Meta Back-End Developer Professional Certificate",
+      fileName: "Matsepe_Kgodiso_Meta_Backend_Developer_Profesional_Certificate.pdf",
+      type: "Certificate",
+      category: "Meta Backend Development"
+    },
+    {
+      title: "Meta Front-End Developer Professional Certificate",
       fileName: "Matsepe_Kgodiso_Meta_Front_End_Developer_Certificate.pdf",
       type: "Certificate",
       category: "Meta Frontend Development"
@@ -38,12 +44,6 @@ const EducationDetails = () => {
       category: "Meta Frontend Development"
     },
     {
-      title: "Version Control - Meta",
-      fileName: "Matsepe_Kgodiso_Version_Control_Meta_Certificate.pdf",
-      type: "Certificate",
-      category: "Meta Backend Development"
-    },
-    {
       title: "Advanced React - Meta",
       fileName: "Matsepe_Kgodiso_Advanced_React_Meta_Certificate.pdf",
       type: "Certificate",
@@ -62,12 +62,6 @@ const EducationDetails = () => {
       category: "Meta Frontend Development"
     },
     {
-      title: "Coding Interview Preparation - Meta",
-      fileName: "Matsepe_Kgodiso_Coding_Interview_Preparation.pdf",
-      type: "Certificate",
-      category: "Meta Backend Development"
-    },
-    {
       title: "Introduction to Back-End Development - Meta",
       fileName: "Matsepe_Kgodiso_Introduction_To_Backend_Meta_Certficate.pdf",
       type: "Certificate",
@@ -76,6 +70,12 @@ const EducationDetails = () => {
     {
       title: "Programming in Python - Meta",
       fileName: "Matsepe_Kgodiso_Programming_In_Python_Meta_Certificate.pdf",
+      type: "Certificate",
+      category: "Meta Backend Development"
+    },
+    {
+      title: "Version Control - Meta",
+      fileName: "Matsepe_Kgodiso_Version_Control_Meta_Certificate.pdf",
       type: "Certificate",
       category: "Meta Backend Development"
     },
@@ -92,14 +92,20 @@ const EducationDetails = () => {
       category: "Meta Backend Development"
     },
     {
+      title: "Django Framework - Meta",
+      fileName: "Matsepe_Kgodiso_Django_FrameWork_Meta_Certificate.pdf",
+      type: "Certificate",
+      category: "Meta Backend Development"
+    },
+    {
       title: "Back-End Developer Capstone - Meta",
       fileName: "Matsepe_Kgodiso_Backend_Developer_Capstone_Meta_Certificate.pdf",
       type: "Certificate",
       category: "Meta Backend Development"
     },
     {
-      title: "Django Framework - Meta",
-      fileName: "Matsepe_Kgodiso_Django_FrameWork_Meta_Certificate.pdf",
+      title: "Coding Interview Preparation - Meta",
+      fileName: "Matsepe_Kgodiso_Coding_Interview_Preparation.pdf",
       type: "Certificate",
       category: "Meta Backend Development"
     },
