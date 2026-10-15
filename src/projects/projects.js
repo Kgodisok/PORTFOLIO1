@@ -17,7 +17,7 @@ const Projects = () => {
             <p className="skill-item-project"><strong><h3>Tech Stack:</h3> </strong> React <SiReact size={30} color="#61DBFB"/>, Node <SiNodedotjs size={30} color="#68A063"/>, Express <SiExpress size={30}/>, MySQL <SiMysql size={40} color="#00758F" /> & JSON <SiJson size={22}/></p>
             <div className="project-content">
             <p>Founder & Developer – FindRooms | Portmat
-                Independently founded, developed, and deployed FindRooms, a live full-stack accommodation platform, and acquired the [www.findrooms.co.za](https://www.findrooms.co.za) domain. Built with React (Vite), Node.js, Express, and MySQL, the platform integrates RESTful APIs to deliver dynamic accommodation listings, search, and filtering. Implemented React Lazy Loading and Suspense for improved performance and optimized user experience. Managed the project from concept and development through deployment and production hosting.
+                Independently founded, developed, and deployed FindRooms, a full-stack accommodation platform connecting people with accommodation listings across South Africa. Built a responsive React frontend and a Node.js/Express.js backend, integrating Supabase for database management. Implemented dynamic accommodation listings, search and filtering functionality, and React Lazy Loading and Suspense to improve loading performance and user experience. Managed the entire development lifecycle, from concept and implementation to deployment and production hosting.
             </p></div>
             <a href="https://www.findrooms.co.za"><button className="live-btn">View Project</button></a>
         </div>
