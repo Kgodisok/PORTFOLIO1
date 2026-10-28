@@ -15,6 +15,7 @@ import {
   SiGit,
   SiGithub,
   SiFigma,
+  SiDjango,
 } from "react-icons/si";
 import { FaJava, FaAws, FaFileExcel } from "react-icons/fa";
 import { VscVscode } from "react-icons/vsc";
@@ -79,6 +80,9 @@ const WebDev = () => {
             </div>
             <div className="skill-item">
               <SiSpringboot size={22} color="#6DB33F" /> Spring Boot
+            </div>
+            <div className="skill-item">
+              <SiDjango size={22} color="#6DB33F" /> Django
             </div>
           </div>
         </div>
