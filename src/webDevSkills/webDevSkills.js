@@ -73,6 +73,9 @@ const WebDev = () => {
               <SiFlask size={22} color="black" /> Flask API
             </div>
             <div className="skill-item">
+              <SiDjango size={22} color="#6DB33F" /> Django
+            </div>
+            <div className="skill-item">
               <SiNodedotjs size={22} color="#68A063" /> Node
             </div>
             <div className="skill-item">
@@ -80,9 +83,6 @@ const WebDev = () => {
             </div>
             <div className="skill-item">
               <SiSpringboot size={22} color="#6DB33F" /> Spring Boot
-            </div>
-            <div className="skill-item">
-              <SiDjango size={22} color="#6DB33F" /> Django
             </div>
           </div>
         </div>
