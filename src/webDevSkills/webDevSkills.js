@@ -16,6 +16,7 @@ import {
   SiGithub,
   SiFigma,
   SiDjango,
+  SiCplusplus,
 } from "react-icons/si";
 import { FaJava, FaAws, FaFileExcel } from "react-icons/fa";
 import { VscVscode } from "react-icons/vsc";
@@ -40,6 +41,9 @@ const WebDev = () => {
             </div>
             <div className="skill-item">
               <FaJava size={22} color="#007396" /> Java
+            </div>
+            <div className="skill-item">
+              <SiCplusplus size={22} color="black" /> C++
             </div>
           </div>
         </div>
