@@ -4,6 +4,7 @@ import {
   SiHtml5,
   SiCss,
   SiReact,
+  SiAngular,
   SiTypescript,
   SiFlask,
   SiNodedotjs,
@@ -65,6 +66,12 @@ const WebDev = () => {
             <div className="skill-item">
               <SiReact size={22} color="#61DBFB" /> React
             </div>
+
+            <div className="skill-item">
+              <SiAngular size={22} color="#DD0031" /> Angular
+            </div>
+
+
             
           </div>
         </div>
